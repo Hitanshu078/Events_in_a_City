@@ -1,0 +1,726 @@
+2025-05-14 09:51:47,823 - sydney_events_scraper - INFO - Connecting to database...
+2025-05-14 09:51:47,834 - sydney_events_scraper - INFO - Connected.
+2025-05-14 09:51:47,844 - sydney_events_scraper - INFO - Database setup complete
+2025-05-14 09:51:47,846 - sydney_events_scraper - INFO - Starting all scrapers
+2025-05-14 09:51:47,846 - sydney_events_scraper - INFO - Fetching events from Google Calendar
+2025-05-14 09:51:48,345 - sydney_events_scraper - ERROR - Google Calendar API error: 401 - {
+  "error": {
+    "code": 401,
+    "message": "API keys are not supported by this API. Expected OAuth2 access token or other authentication credentials that assert a principal. See https://cloud.google.com/docs/authentication",
+    "errors": [
+      {
+        "message": "Login Required.",
+        "domain": "global",
+        "reason": "required",
+        "location": "Authorization",
+        "locationType": "header"
+      }
+    ],
+    "status": "UNAUTHENTICATED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "CREDENTIALS_MISSING",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "calendar.v3.Calendars.Get",
+          "service": "calendar-json.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+2025-05-14 09:51:48,347 - sydney_events_scraper - INFO - Scraping Eventbrite Sydney events
+2025-05-14 09:51:51,283 - sydney_events_scraper - INFO - Found 0 events on Eventbrite
+2025-05-14 09:51:51,285 - sydney_events_scraper - INFO - Scraping Sydney.com events
+2025-05-14 09:51:51,497 - sydney_events_scraper - ERROR - Failed to fetch Sydney.com page: HTTP 404
+2025-05-14 09:51:51,497 - sydney_events_scraper - INFO - All scrapers completed
+2025-05-14 09:59:40,575 - sydney_events_scraper - INFO - Connecting to database...
+2025-05-14 09:59:40,575 - sydney_events_scraper - INFO - Connected.
+2025-05-14 09:59:40,575 - sydney_events_scraper - INFO - Database setup complete
+2025-05-14 09:59:40,575 - sydney_events_scraper - INFO - Starting all scrapers
+2025-05-14 10:00:22,066 - sydney_events_scraper - INFO - Connecting to database...
+2025-05-14 10:00:22,066 - sydney_events_scraper - INFO - Connected.
+2025-05-14 10:00:22,066 - sydney_events_scraper - INFO - Database setup complete
+2025-05-14 10:00:22,066 - sydney_events_scraper - INFO - Starting all scrapers
+2025-05-14 10:00:22,066 - sydney_events_scraper - INFO - Fetching events from Google Calendar ICS
+2025-05-14 10:00:22,793 - sydney_events_scraper - INFO - Storing event: Harmony Day
+2025-05-14 10:00:22,801 - sydney_events_scraper - INFO - Stored event: Harmony Day
+2025-05-14 10:00:22,801 - sydney_events_scraper - INFO - Storing event: ANZAC Day
+2025-05-14 10:00:22,801 - sydney_events_scraper - INFO - Stored event: ANZAC Day
+2025-05-14 10:00:22,808 - sydney_events_scraper - INFO - Storing event: New Year's Day
+2025-05-14 10:00:22,813 - sydney_events_scraper - INFO - Stored event: New Year's Day
+2025-05-14 10:00:22,813 - sydney_events_scraper - INFO - Storing event: National Day of Mourning for Her Majesty The Queen
+2025-05-14 10:00:22,820 - sydney_events_scraper - INFO - Stored event: National Day of Mourning for Her Majesty The Queen
+2025-05-14 10:00:22,820 - sydney_events_scraper - INFO - Storing event: Remembrance Day
+2025-05-14 10:00:22,820 - sydney_events_scraper - INFO - Stored event: Remembrance Day
+2025-05-14 10:00:22,826 - sydney_events_scraper - INFO - Storing event: Daylight Saving Time ends
+2025-05-14 10:00:22,830 - sydney_events_scraper - INFO - Stored event: Daylight Saving Time ends
+2025-05-14 10:00:22,833 - sydney_events_scraper - INFO - Storing event: Remembrance Day
+2025-05-14 10:00:22,836 - sydney_events_scraper - INFO - Stored event: Remembrance Day
+2025-05-14 10:00:22,836 - sydney_events_scraper - INFO - Storing event: New Year's Day
+2025-05-14 10:00:22,844 - sydney_events_scraper - INFO - Stored event: New Year's Day
+2025-05-14 10:00:22,844 - sydney_events_scraper - INFO - Storing event: Daylight Saving Time ends
+2025-05-14 10:00:22,852 - sydney_events_scraper - INFO - Stored event: Daylight Saving Time ends
+2025-05-14 10:00:22,852 - sydney_events_scraper - INFO - Storing event: Remembrance Day
+2025-05-14 10:00:22,855 - sydney_events_scraper - INFO - Stored event: Remembrance Day
+2025-05-14 10:00:22,855 - sydney_events_scraper - INFO - Fetched 10 events from Google Calendar ICS
+2025-05-14 10:00:22,860 - sydney_events_scraper - INFO - Scraping Eventbrite Sydney events
+2025-05-14 10:00:25,869 - sydney_events_scraper - INFO - Found 0 events on Eventbrite
+2025-05-14 10:00:25,878 - sydney_events_scraper - INFO - Scraping Sydney.com events
+2025-05-14 10:00:26,212 - sydney_events_scraper - ERROR - Failed to fetch Sydney.com page: HTTP 404
+2025-05-14 10:00:26,212 - sydney_events_scraper - INFO - All scrapers completed
+2025-05-14 10:01:17,754 - sydney_events_scraper - INFO - Connecting to database...
+2025-05-14 10:01:17,754 - sydney_events_scraper - INFO - Connected.
+2025-05-14 10:01:17,754 - sydney_events_scraper - INFO - Database setup complete
+2025-05-14 10:01:17,754 - sydney_events_scraper - INFO - Starting all scrapers
+2025-05-14 10:01:17,754 - sydney_events_scraper - INFO - Fetching events from Google Calendar ICS
+2025-05-14 10:01:18,706 - sydney_events_scraper - INFO - Storing event: Harmony Day
+2025-05-14 10:01:18,706 - sydney_events_scraper - INFO - Stored event: Harmony Day
+2025-05-14 10:01:18,706 - sydney_events_scraper - INFO - Storing event: ANZAC Day
+2025-05-14 10:01:18,718 - sydney_events_scraper - INFO - Stored event: ANZAC Day
+2025-05-14 10:01:18,721 - sydney_events_scraper - INFO - Storing event: New Year's Day
+2025-05-14 10:01:18,724 - sydney_events_scraper - INFO - Stored event: New Year's Day
+2025-05-14 10:01:18,727 - sydney_events_scraper - INFO - Storing event: National Day of Mourning for Her Majesty The Queen
+2025-05-14 10:01:18,728 - sydney_events_scraper - INFO - Stored event: National Day of Mourning for Her Majesty The Queen
+2025-05-14 10:01:18,728 - sydney_events_scraper - INFO - Storing event: Remembrance Day
+2025-05-14 10:01:18,735 - sydney_events_scraper - INFO - Stored event: Remembrance Day
+2025-05-14 10:01:18,735 - sydney_events_scraper - INFO - Storing event: Daylight Saving Time ends
+2025-05-14 10:01:18,743 - sydney_events_scraper - INFO - Stored event: Daylight Saving Time ends
+2025-05-14 10:01:18,743 - sydney_events_scraper - INFO - Storing event: Remembrance Day
+2025-05-14 10:01:18,745 - sydney_events_scraper - INFO - Stored event: Remembrance Day
+2025-05-14 10:01:18,745 - sydney_events_scraper - INFO - Storing event: New Year's Day
+2025-05-14 10:01:18,753 - sydney_events_scraper - INFO - Stored event: New Year's Day
+2025-05-14 10:01:18,753 - sydney_events_scraper - INFO - Storing event: Daylight Saving Time ends
+2025-05-14 10:01:18,756 - sydney_events_scraper - INFO - Stored event: Daylight Saving Time ends
+2025-05-14 10:01:18,756 - sydney_events_scraper - INFO - Storing event: Remembrance Day
+2025-05-14 10:01:18,764 - sydney_events_scraper - INFO - Stored event: Remembrance Day
+2025-05-14 10:01:18,764 - sydney_events_scraper - INFO - Fetched 10 events from Google Calendar ICS
+2025-05-14 10:01:18,767 - sydney_events_scraper - INFO - Fetching events from PredictHQ API
+2025-05-14 10:01:18,768 - sydney_events_scraper - INFO - Using headers: {'Authorization': 'HIDDEN', 'Accept': 'application/json'}
+2025-05-14 10:01:21,608 - sydney_events_scraper - INFO - Found 20 events from PredictHQ
+2025-05-14 10:01:21,608 - sydney_events_scraper - INFO - Storing event: Hippo Campus with Hotline TNT
+2025-05-14 10:01:21,626 - sydney_events_scraper - INFO - Stored event: Hippo Campus with Hotline TNT
+2025-05-14 10:01:21,626 - sydney_events_scraper - INFO - Storing event: Severe Delays - Bangui M'Poko International Airport (BGF)
+2025-05-14 10:01:21,635 - sydney_events_scraper - INFO - Stored event: Severe Delays - Bangui M'Poko International Airport (BGF)
+2025-05-14 10:01:21,635 - sydney_events_scraper - INFO - Storing event: Ceramic Paint and Sip Classes in Melbourne
+2025-05-14 10:01:21,645 - sydney_events_scraper - INFO - Stored event: Ceramic Paint and Sip Classes in Melbourne
+2025-05-14 10:01:21,646 - sydney_events_scraper - INFO - Storing event: Roberto Carlos
+2025-05-14 10:01:21,653 - sydney_events_scraper - INFO - Stored event: Roberto Carlos
+2025-05-14 10:01:21,653 - sydney_events_scraper - INFO - Storing event: Absinthe
+2025-05-14 10:01:21,660 - sydney_events_scraper - INFO - Stored event: Absinthe
+2025-05-14 10:01:21,660 - sydney_events_scraper - INFO - Storing event: Without an Evil Eye - Palo Alto
+2025-05-14 10:01:21,666 - sydney_events_scraper - INFO - Stored event: Without an Evil Eye - Palo Alto
+2025-05-14 10:01:21,667 - sydney_events_scraper - INFO - Storing event: Severe Delays - Panzhihua Bao'angong Airport (PZI)
+2025-05-14 10:01:21,668 - sydney_events_scraper - INFO - Stored event: Severe Delays - Panzhihua Bao'angong Airport (PZI)
+2025-05-14 10:01:21,672 - sydney_events_scraper - INFO - Storing event: IDK in Los Angeles
+2025-05-14 10:01:21,675 - sydney_events_scraper - INFO - Stored event: IDK in Los Angeles
+2025-05-14 10:01:21,675 - sydney_events_scraper - INFO - Storing event: OPEN MIC ( SINGERS & POETS)
+2025-05-14 10:01:21,682 - sydney_events_scraper - INFO - Stored event: OPEN MIC ( SINGERS & POETS)
+2025-05-14 10:01:21,682 - sydney_events_scraper - INFO - Storing event: Bartees Strange at The Crocodile
+2025-05-14 10:01:21,688 - sydney_events_scraper - INFO - Stored event: Bartees Strange at The Crocodile
+2025-05-14 10:01:21,688 - sydney_events_scraper - INFO - Storing event: Moderate Coastal Event
+2025-05-14 10:01:21,697 - sydney_events_scraper - INFO - Stored event: Moderate Coastal Event
+2025-05-14 10:01:21,697 - sydney_events_scraper - INFO - Storing event: Moderate Delays - Shiyan Wudangshan Airport (WDS)
+2025-05-14 10:01:21,702 - sydney_events_scraper - INFO - Stored event: Moderate Delays - Shiyan Wudangshan Airport (WDS)
+2025-05-14 10:01:21,702 - sydney_events_scraper - INFO - Storing event: James Bay
+2025-05-14 10:01:21,710 - sydney_events_scraper - INFO - Stored event: James Bay
+2025-05-14 10:01:21,710 - sydney_events_scraper - INFO - Storing event: CupcakKe at The Orpheum Theater
+2025-05-14 10:01:21,716 - sydney_events_scraper - INFO - Stored event: CupcakKe at The Orpheum Theater
+2025-05-14 10:01:21,716 - sydney_events_scraper - INFO - Storing event: Eem Triplin
+2025-05-14 10:01:21,723 - sydney_events_scraper - INFO - Stored event: Eem Triplin
+2025-05-14 10:01:21,724 - sydney_events_scraper - INFO - Storing event: Open Mic at the Ontario Improv
+2025-05-14 10:01:21,730 - sydney_events_scraper - INFO - Stored event: Open Mic at the Ontario Improv
+2025-05-14 10:01:21,730 - sydney_events_scraper - INFO - Storing event: Laughy Taffy Comedy Show
+2025-05-14 10:01:21,736 - sydney_events_scraper - INFO - Stored event: Laughy Taffy Comedy Show
+2025-05-14 10:01:21,736 - sydney_events_scraper - INFO - Storing event: Home Electrician Pros Bellingham and Home Electrician Pros Bellingham
+2025-05-14 10:01:21,742 - sydney_events_scraper - INFO - Stored event: Home Electrician Pros Bellingham and Home Electrician Pros Bellingham
+2025-05-14 10:01:21,742 - sydney_events_scraper - INFO - Storing event: Dive Bar Comedy at Brews Brothers
+2025-05-14 10:01:21,744 - sydney_events_scraper - INFO - Stored event: Dive Bar Comedy at Brews Brothers
+2025-05-14 10:01:21,744 - sydney_events_scraper - INFO - Storing event: FLOWER MOON TUESDAY NIGHT SOUND BATH MEDITATION IMMERSION
+2025-05-14 10:01:21,752 - sydney_events_scraper - INFO - Stored event: FLOWER MOON TUESDAY NIGHT SOUND BATH MEDITATION IMMERSION
+2025-05-14 10:01:21,752 - sydney_events_scraper - INFO - Scraping Eventbrite Sydney events
+2025-05-14 10:01:23,801 - sydney_events_scraper - INFO - Found 0 events on Eventbrite
+2025-05-14 10:01:23,801 - sydney_events_scraper - INFO - Scraping Sydney.com events
+2025-05-14 10:01:24,275 - sydney_events_scraper - ERROR - Failed to fetch Sydney.com page: HTTP 404
+2025-05-14 10:01:24,275 - sydney_events_scraper - INFO - All scrapers completed
+2025-05-14 10:19:31,630 - sydney_events_scraper - INFO - Connecting to database...
+2025-05-14 10:19:31,630 - sydney_events_scraper - INFO - Database setup complete
+2025-05-14 10:19:31,630 - sydney_events_scraper - INFO - Starting all scrapers
+2025-05-14 10:19:31,630 - sydney_events_scraper - INFO - Fetching events from Google Calendar ICS
+2025-05-14 10:19:35,217 - sydney_events_scraper - ERROR - Failed to fetch Google Calendar ICS feed: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-05-14 10:19:35,217 - sydney_events_scraper - INFO - Fetching events from PredictHQ API
+2025-05-14 10:19:36,839 - sydney_events_scraper - INFO - Storing event: The Sphere Experience with Darren Aronofsky's Postcard From Earth
+2025-05-14 10:19:36,852 - sydney_events_scraper - INFO - Storing event: Zach Johnson
+2025-05-14 10:19:36,852 - sydney_events_scraper - INFO - Storing event: Santiago Cruz at City Winery Atlanta
+2025-05-14 10:19:36,860 - sydney_events_scraper - INFO - Storing event: IAM
+2025-05-14 10:19:36,862 - sydney_events_scraper - INFO - Storing event: Marion Hughes Watercolour classes.
+2025-05-14 10:19:36,866 - sydney_events_scraper - INFO - Storing event: Blue Man Group Las Vegas
+2025-05-14 10:19:36,869 - sydney_events_scraper - INFO - Storing event: The Carpenter's Legacy
+2025-05-14 10:19:36,872 - sydney_events_scraper - INFO - Storing event: Art and Craft Group
+2025-05-14 10:19:36,877 - sydney_events_scraper - INFO - Storing event: Sam Peoples and Jacore Baptiste Music
+2025-05-14 10:19:36,879 - sydney_events_scraper - INFO - Storing event: Battlezone Laser Tag
+2025-05-14 10:19:36,882 - sydney_events_scraper - INFO - Storing event: Defence Forces Day
+2025-05-14 10:19:36,882 - sydney_events_scraper - INFO - Storing event: Morning Tea with the Farmer
+2025-05-14 10:19:36,888 - sydney_events_scraper - INFO - Storing event: Zappa Plays Zappa
+2025-05-14 10:19:36,891 - sydney_events_scraper - INFO - Storing event: Melissa Etheridge
+2025-05-14 10:19:36,895 - sydney_events_scraper - INFO - Storing event: The Whole is Greater Than the Sum of Her Parts
+2025-05-14 10:19:36,898 - sydney_events_scraper - INFO - Storing event: EDW Live in Greenville, SC at Doc's Tavern - 21+!
+2025-05-14 10:19:36,900 - sydney_events_scraper - INFO - Storing event: Heide Art Babies
+2025-05-14 10:19:36,903 - sydney_events_scraper - INFO - Storing event: Sunset Yoga | August 11
+2025-05-14 10:19:36,906 - sydney_events_scraper - INFO - Storing event: Sturgeon Moon Sound Bath
+2025-05-14 10:19:36,909 - sydney_events_scraper - INFO - Storing event: WesGhost at Subterranean
+2025-05-14 10:19:36,913 - sydney_events_scraper - INFO - Scraping Eventbrite Sydney events
+2025-05-14 10:19:41,637 - sydney_events_scraper - INFO - Scraping Sydney.com events
+2025-05-14 10:19:42,408 - sydney_events_scraper - INFO - All scrapers completed
+2025-05-14 10:22:25,656 - sydney_events_scraper - INFO - Connecting to database...
+2025-05-14 10:22:25,656 - sydney_events_scraper - INFO - Connected.
+2025-05-14 10:22:25,656 - sydney_events_scraper - INFO - Database setup complete
+2025-05-14 10:22:25,656 - sydney_events_scraper - INFO - Running all scrapers
+2025-05-14 10:22:25,656 - sydney_events_scraper - INFO - Fetching from Google Calendar ICS
+2025-05-14 10:23:09,325 - sydney_events_scraper - INFO - Storing event: Harmony Day
+2025-05-14 10:23:09,325 - sydney_events_scraper - INFO - Stored event: Harmony Day
+2025-05-14 10:23:09,325 - sydney_events_scraper - INFO - Storing event: ANZAC Day
+2025-05-14 10:23:09,325 - sydney_events_scraper - INFO - Stored event: ANZAC Day
+2025-05-14 10:23:09,340 - sydney_events_scraper - INFO - Storing event: New Year's Day
+2025-05-14 10:23:09,342 - sydney_events_scraper - INFO - Stored event: New Year's Day
+2025-05-14 10:23:09,343 - sydney_events_scraper - INFO - Storing event: National Day of Mourning for Her Majesty The Queen
+2025-05-14 10:23:09,346 - sydney_events_scraper - INFO - Stored event: National Day of Mourning for Her Majesty The Queen
+2025-05-14 10:23:09,346 - sydney_events_scraper - INFO - Storing event: Remembrance Day
+2025-05-14 10:23:09,350 - sydney_events_scraper - INFO - Stored event: Remembrance Day
+2025-05-14 10:23:09,350 - sydney_events_scraper - INFO - Storing event: Daylight Saving Time ends
+2025-05-14 10:23:09,353 - sydney_events_scraper - INFO - Stored event: Daylight Saving Time ends
+2025-05-14 10:23:09,354 - sydney_events_scraper - INFO - Storing event: Remembrance Day
+2025-05-14 10:23:09,356 - sydney_events_scraper - INFO - Stored event: Remembrance Day
+2025-05-14 10:23:09,357 - sydney_events_scraper - INFO - Storing event: New Year's Day
+2025-05-14 10:23:09,360 - sydney_events_scraper - INFO - Stored event: New Year's Day
+2025-05-14 10:23:09,360 - sydney_events_scraper - INFO - Storing event: Daylight Saving Time ends
+2025-05-14 10:23:09,364 - sydney_events_scraper - INFO - Stored event: Daylight Saving Time ends
+2025-05-14 10:23:09,365 - sydney_events_scraper - INFO - Storing event: Remembrance Day
+2025-05-14 10:23:09,365 - sydney_events_scraper - INFO - Stored event: Remembrance Day
+2025-05-14 10:23:09,365 - sydney_events_scraper - INFO - Storing event: Daylight Saving Time ends
+2025-05-14 10:23:09,365 - sydney_events_scraper - INFO - Stored event: Daylight Saving Time ends
+2025-05-14 10:23:09,365 - sydney_events_scraper - INFO - Storing event: Remembrance Day
+2025-05-14 10:23:09,365 - sydney_events_scraper - INFO - Stored event: Remembrance Day
+2025-05-14 10:23:09,365 - sydney_events_scraper - INFO - Storing event: Boxing Day
+2025-05-14 10:23:09,376 - sydney_events_scraper - INFO - Stored event: Boxing Day
+2025-05-14 10:23:09,377 - sydney_events_scraper - INFO - Storing event: ANZAC Day
+2025-05-14 10:23:09,379 - sydney_events_scraper - INFO - Stored event: ANZAC Day
+2025-05-14 10:23:09,380 - sydney_events_scraper - INFO - Storing event: Harmony Day
+2025-05-14 10:23:09,381 - sydney_events_scraper - INFO - Stored event: Harmony Day
+2025-05-14 10:23:09,382 - sydney_events_scraper - INFO - Storing event: Harmony Day
+2025-05-14 10:23:09,384 - sydney_events_scraper - INFO - Stored event: Harmony Day
+2025-05-14 10:23:09,385 - sydney_events_scraper - INFO - Storing event: New Year's Day
+2025-05-14 10:23:09,388 - sydney_events_scraper - INFO - Stored event: New Year's Day
+2025-05-14 10:23:09,388 - sydney_events_scraper - INFO - Storing event: Remembrance Day
+2025-05-14 10:23:09,390 - sydney_events_scraper - INFO - Stored event: Remembrance Day
+2025-05-14 10:23:09,391 - sydney_events_scraper - INFO - Storing event: New Year's Day
+2025-05-14 10:23:09,393 - sydney_events_scraper - INFO - Stored event: New Year's Day
+2025-05-14 10:23:09,393 - sydney_events_scraper - INFO - Storing event: Daylight Saving Time starts
+2025-05-14 10:23:09,393 - sydney_events_scraper - INFO - Stored event: Daylight Saving Time starts
+2025-05-14 10:23:09,393 - sydney_events_scraper - INFO - Storing event: Australia Day
+2025-05-14 10:23:09,398 - sydney_events_scraper - INFO - Stored event: Australia Day
+2025-05-14 10:23:09,399 - sydney_events_scraper - INFO - Storing event: ANZAC Day
+2025-05-14 10:23:09,402 - sydney_events_scraper - INFO - Stored event: ANZAC Day
+2025-05-14 10:23:09,403 - sydney_events_scraper - INFO - Storing event: The Coronation of King Charles III
+2025-05-14 10:23:09,404 - sydney_events_scraper - INFO - Stored event: The Coronation of King Charles III
+2025-05-14 10:23:09,405 - sydney_events_scraper - INFO - Storing event: ANZAC Day
+2025-05-14 10:23:09,407 - sydney_events_scraper - INFO - Stored event: ANZAC Day
+2025-05-14 10:23:09,407 - sydney_events_scraper - INFO - Storing event: Australia Day
+2025-05-14 10:23:09,411 - sydney_events_scraper - INFO - Stored event: Australia Day
+2025-05-14 10:23:09,411 - sydney_events_scraper - INFO - Storing event: Daylight Saving Time ends
+2025-05-14 10:23:09,413 - sydney_events_scraper - INFO - Stored event: Daylight Saving Time ends
+2025-05-14 10:23:09,414 - sydney_events_scraper - INFO - Storing event: Harmony Day
+2025-05-14 10:23:09,417 - sydney_events_scraper - INFO - Stored event: Harmony Day
+2025-05-14 10:23:09,417 - sydney_events_scraper - INFO - Storing event: ANZAC Day
+2025-05-14 10:23:09,421 - sydney_events_scraper - INFO - Stored event: ANZAC Day
+2025-05-14 10:23:09,421 - sydney_events_scraper - INFO - Storing event: Daylight Saving Time starts
+2025-05-14 10:23:09,426 - sydney_events_scraper - INFO - Stored event: Daylight Saving Time starts
+2025-05-14 10:23:09,427 - sydney_events_scraper - INFO - Storing event: Daylight Saving Time starts
+2025-05-14 10:23:09,428 - sydney_events_scraper - INFO - Stored event: Daylight Saving Time starts
+2025-05-14 10:23:09,428 - sydney_events_scraper - INFO - Storing event: Daylight Saving Time ends
+2025-05-14 10:23:09,433 - sydney_events_scraper - INFO - Stored event: Daylight Saving Time ends
+2025-05-14 10:23:09,433 - sydney_events_scraper - INFO - Storing event: ANZAC Day
+2025-05-14 10:23:09,435 - sydney_events_scraper - INFO - Stored event: ANZAC Day
+2025-05-14 10:23:09,435 - sydney_events_scraper - INFO - Storing event: Daylight Saving Time ends
+2025-05-14 10:23:09,438 - sydney_events_scraper - INFO - Stored event: Daylight Saving Time ends
+2025-05-14 10:23:09,439 - sydney_events_scraper - INFO - Storing event: Daylight Saving Time starts
+2025-05-14 10:23:09,442 - sydney_events_scraper - INFO - Stored event: Daylight Saving Time starts
+2025-05-14 10:23:09,442 - sydney_events_scraper - INFO - Storing event: Harmony Day
+2025-05-14 10:23:09,446 - sydney_events_scraper - INFO - Stored event: Harmony Day
+2025-05-14 10:23:09,446 - sydney_events_scraper - INFO - Storing event: New Year's Day
+2025-05-14 10:23:09,449 - sydney_events_scraper - INFO - Stored event: New Year's Day
+2025-05-14 10:23:09,449 - sydney_events_scraper - INFO - Storing event: ANZAC Day
+2025-05-14 10:23:09,452 - sydney_events_scraper - INFO - Stored event: ANZAC Day
+2025-05-14 10:23:09,452 - sydney_events_scraper - INFO - Storing event: New Year's Day
+2025-05-14 10:23:09,455 - sydney_events_scraper - INFO - Stored event: New Year's Day
+2025-05-14 10:23:09,455 - sydney_events_scraper - INFO - Storing event: Daylight Saving Time starts
+2025-05-14 10:23:09,456 - sydney_events_scraper - INFO - Stored event: Daylight Saving Time starts
+2025-05-14 10:23:09,456 - sydney_events_scraper - INFO - Storing event: Australia Day
+2025-05-14 10:23:09,456 - sydney_events_scraper - INFO - Stored event: Australia Day
+2025-05-14 10:23:09,456 - sydney_events_scraper - INFO - Storing event: Remembrance Day
+2025-05-14 10:23:09,464 - sydney_events_scraper - INFO - Stored event: Remembrance Day
+2025-05-14 10:23:09,464 - sydney_events_scraper - INFO - Storing event: Boxing Day
+2025-05-14 10:23:09,467 - sydney_events_scraper - INFO - Stored event: Boxing Day
+2025-05-14 10:23:09,467 - sydney_events_scraper - INFO - Storing event: Australia Day
+2025-05-14 10:23:09,469 - sydney_events_scraper - INFO - Stored event: Australia Day
+2025-05-14 10:23:09,469 - sydney_events_scraper - INFO - Storing event: Harmony Day
+2025-05-14 10:23:09,473 - sydney_events_scraper - INFO - Stored event: Harmony Day
+2025-05-14 10:23:09,473 - sydney_events_scraper - INFO - Storing event: Australia Day
+2025-05-14 10:23:09,477 - sydney_events_scraper - INFO - Stored event: Australia Day
+2025-05-14 10:23:09,479 - sydney_events_scraper - INFO - Storing event: Daylight Saving Time starts
+2025-05-14 10:23:09,481 - sydney_events_scraper - INFO - Stored event: Daylight Saving Time starts
+2025-05-14 10:23:09,481 - sydney_events_scraper - INFO - Storing event: Australia Day
+2025-05-14 10:23:09,486 - sydney_events_scraper - INFO - Stored event: Australia Day
+2025-05-14 10:23:09,487 - sydney_events_scraper - INFO - Storing event: Harmony Day
+2025-05-14 10:23:09,489 - sydney_events_scraper - INFO - Stored event: Harmony Day
+2025-05-14 10:23:09,489 - sydney_events_scraper - INFO - Storing event: Daylight Saving Time ends
+2025-05-14 10:23:09,493 - sydney_events_scraper - INFO - Stored event: Daylight Saving Time ends
+2025-05-14 10:23:09,494 - sydney_events_scraper - INFO - Storing event: Boxing Day
+2025-05-14 10:23:09,496 - sydney_events_scraper - INFO - Stored event: Boxing Day
+2025-05-14 10:23:09,496 - sydney_events_scraper - INFO - Storing event: Daylight Saving Time ends
+2025-05-14 10:23:09,496 - sydney_events_scraper - INFO - Stored event: Daylight Saving Time ends
+2025-05-14 10:23:09,496 - sydney_events_scraper - INFO - Storing event: New Year's Day
+2025-05-14 10:23:09,504 - sydney_events_scraper - INFO - Stored event: New Year's Day
+2025-05-14 10:23:09,504 - sydney_events_scraper - INFO - Storing event: Daylight Saving Time starts
+2025-05-14 10:23:09,506 - sydney_events_scraper - INFO - Stored event: Daylight Saving Time starts
+2025-05-14 10:23:09,506 - sydney_events_scraper - INFO - Storing event: New Year's Day
+2025-05-14 10:23:09,510 - sydney_events_scraper - INFO - Stored event: New Year's Day
+2025-05-14 10:23:09,510 - sydney_events_scraper - INFO - Storing event: Boxing Day
+2025-05-14 10:23:09,511 - sydney_events_scraper - INFO - Stored event: Boxing Day
+2025-05-14 10:23:09,511 - sydney_events_scraper - INFO - Storing event: Daylight Saving Time starts
+2025-05-14 10:23:09,517 - sydney_events_scraper - INFO - Stored event: Daylight Saving Time starts
+2025-05-14 10:23:09,517 - sydney_events_scraper - INFO - Storing event: Harmony Day
+2025-05-14 10:23:09,518 - sydney_events_scraper - INFO - Stored event: Harmony Day
+2025-05-14 10:23:09,518 - sydney_events_scraper - INFO - Storing event: Boxing Day
+2025-05-14 10:23:09,523 - sydney_events_scraper - INFO - Stored event: Boxing Day
+2025-05-14 10:23:09,524 - sydney_events_scraper - INFO - Storing event: Australia Day
+2025-05-14 10:23:09,526 - sydney_events_scraper - INFO - Stored event: Australia Day
+2025-05-14 10:23:09,527 - sydney_events_scraper - INFO - Storing event: Daylight Saving Time starts
+2025-05-14 10:23:09,531 - sydney_events_scraper - INFO - Stored event: Daylight Saving Time starts
+2025-05-14 10:23:09,531 - sydney_events_scraper - INFO - Storing event: Daylight Saving Time starts
+2025-05-14 10:23:09,534 - sydney_events_scraper - INFO - Stored event: Daylight Saving Time starts
+2025-05-14 10:23:09,535 - sydney_events_scraper - INFO - Storing event: Australia Day
+2025-05-14 10:23:09,537 - sydney_events_scraper - INFO - Stored event: Australia Day
+2025-05-14 10:23:09,537 - sydney_events_scraper - INFO - Storing event: Harmony Day
+2025-05-14 10:23:09,539 - sydney_events_scraper - INFO - Stored event: Harmony Day
+2025-05-14 10:23:09,539 - sydney_events_scraper - INFO - Storing event: Daylight Saving Time ends
+2025-05-14 10:23:09,546 - sydney_events_scraper - INFO - Stored event: Daylight Saving Time ends
+2025-05-14 10:23:09,546 - sydney_events_scraper - INFO - Storing event: Remembrance Day
+2025-05-14 10:23:09,548 - sydney_events_scraper - INFO - Stored event: Remembrance Day
+2025-05-14 10:23:09,548 - sydney_events_scraper - INFO - Storing event: Daylight Saving Time ends
+2025-05-14 10:23:09,552 - sydney_events_scraper - INFO - Stored event: Daylight Saving Time ends
+2025-05-14 10:23:09,552 - sydney_events_scraper - INFO - Storing event: ANZAC Day
+2025-05-14 10:23:09,555 - sydney_events_scraper - INFO - Stored event: ANZAC Day
+2025-05-14 10:23:09,555 - sydney_events_scraper - INFO - Storing event: Boxing Day
+2025-05-14 10:23:09,557 - sydney_events_scraper - INFO - Stored event: Boxing Day
+2025-05-14 10:23:09,558 - sydney_events_scraper - INFO - Storing event: Remembrance Day
+2025-05-14 10:23:09,560 - sydney_events_scraper - INFO - Stored event: Remembrance Day
+2025-05-14 10:23:09,560 - sydney_events_scraper - INFO - Storing event: Boxing Day
+2025-05-14 10:23:09,564 - sydney_events_scraper - INFO - Stored event: Boxing Day
+2025-05-14 10:23:09,564 - sydney_events_scraper - INFO - Storing event: Remembrance Day
+2025-05-14 10:23:09,566 - sydney_events_scraper - INFO - Stored event: Remembrance Day
+2025-05-14 10:23:09,567 - sydney_events_scraper - INFO - Storing event: Boxing Day
+2025-05-14 10:23:09,570 - sydney_events_scraper - INFO - Stored event: Boxing Day
+2025-05-14 10:23:09,570 - sydney_events_scraper - INFO - Storing event: New Year's Day
+2025-05-14 10:23:09,572 - sydney_events_scraper - INFO - Stored event: New Year's Day
+2025-05-14 10:23:09,573 - sydney_events_scraper - INFO - Storing event: ANZAC Day
+2025-05-14 10:23:09,574 - sydney_events_scraper - INFO - Stored event: ANZAC Day
+2025-05-14 10:23:09,574 - sydney_events_scraper - INFO - Storing event: Remembrance Day
+2025-05-14 10:23:09,574 - sydney_events_scraper - INFO - Stored event: Remembrance Day
+2025-05-14 10:23:09,574 - sydney_events_scraper - INFO - Storing event: New Year's Day
+2025-05-14 10:23:09,585 - sydney_events_scraper - INFO - Stored event: New Year's Day
+2025-05-14 10:23:09,585 - sydney_events_scraper - INFO - Storing event: Australia Day
+2025-05-14 10:23:09,601 - sydney_events_scraper - INFO - Stored event: Australia Day
+2025-05-14 10:23:09,602 - sydney_events_scraper - INFO - Storing event: ANZAC Day
+2025-05-14 10:23:09,606 - sydney_events_scraper - INFO - Stored event: ANZAC Day
+2025-05-14 10:23:09,606 - sydney_events_scraper - INFO - Storing event: Harmony Day
+2025-05-14 10:23:09,612 - sydney_events_scraper - INFO - Stored event: Harmony Day
+2025-05-14 10:23:09,612 - sydney_events_scraper - INFO - Storing event: Boxing Day
+2025-05-14 10:23:09,618 - sydney_events_scraper - INFO - Stored event: Boxing Day
+2025-05-14 10:23:09,618 - sydney_events_scraper - INFO - Storing event: Australia Day
+2025-05-14 10:23:09,622 - sydney_events_scraper - INFO - Stored event: Australia Day
+2025-05-14 10:23:09,622 - sydney_events_scraper - INFO - Storing event: Boxing Day
+2025-05-14 10:23:09,627 - sydney_events_scraper - INFO - Stored event: Boxing Day
+2025-05-14 10:23:09,627 - sydney_events_scraper - INFO - Storing event: Good Friday
+2025-05-14 10:23:09,632 - sydney_events_scraper - INFO - Stored event: Good Friday
+2025-05-14 10:23:09,632 - sydney_events_scraper - INFO - Storing event: Christmas Eve
+2025-05-14 10:23:09,637 - sydney_events_scraper - INFO - Stored event: Christmas Eve
+2025-05-14 10:23:09,638 - sydney_events_scraper - INFO - Storing event: Christmas Day
+2025-05-14 10:23:09,641 - sydney_events_scraper - INFO - Stored event: Christmas Day
+2025-05-14 10:23:09,641 - sydney_events_scraper - INFO - Storing event: Good Friday
+2025-05-14 10:23:09,645 - sydney_events_scraper - INFO - Stored event: Good Friday
+2025-05-14 10:23:09,646 - sydney_events_scraper - INFO - Storing event: Christmas Eve
+2025-05-14 10:23:09,648 - sydney_events_scraper - INFO - Stored event: Christmas Eve
+2025-05-14 10:23:09,649 - sydney_events_scraper - INFO - Storing event: Christmas Day
+2025-05-14 10:23:09,654 - sydney_events_scraper - INFO - Stored event: Christmas Day
+2025-05-14 10:23:09,654 - sydney_events_scraper - INFO - Storing event: New Year's Eve
+2025-05-14 10:23:09,658 - sydney_events_scraper - INFO - Stored event: New Year's Eve
+2025-05-14 10:23:09,658 - sydney_events_scraper - INFO - Storing event: Good Friday
+2025-05-14 10:23:09,659 - sydney_events_scraper - INFO - Stored event: Good Friday
+2025-05-14 10:23:09,659 - sydney_events_scraper - INFO - Storing event: Christmas Eve
+2025-05-14 10:23:09,666 - sydney_events_scraper - INFO - Stored event: Christmas Eve
+2025-05-14 10:23:09,667 - sydney_events_scraper - INFO - Storing event: Christmas Day
+2025-05-14 10:23:09,669 - sydney_events_scraper - INFO - Stored event: Christmas Day
+2025-05-14 10:23:09,670 - sydney_events_scraper - INFO - Storing event: New Year's Eve
+2025-05-14 10:23:09,672 - sydney_events_scraper - INFO - Stored event: New Year's Eve
+2025-05-14 10:23:09,672 - sydney_events_scraper - INFO - Storing event: Good Friday
+2025-05-14 10:23:09,672 - sydney_events_scraper - INFO - Stored event: Good Friday
+2025-05-14 10:23:09,672 - sydney_events_scraper - INFO - Storing event: Christmas Eve
+2025-05-14 10:23:09,680 - sydney_events_scraper - INFO - Stored event: Christmas Eve
+2025-05-14 10:23:09,681 - sydney_events_scraper - INFO - Storing event: Christmas Day
+2025-05-14 10:23:09,685 - sydney_events_scraper - INFO - Stored event: Christmas Day
+2025-05-14 10:23:09,685 - sydney_events_scraper - INFO - Storing event: New Year's Eve
+2025-05-14 10:23:09,688 - sydney_events_scraper - INFO - Stored event: New Year's Eve
+2025-05-14 10:23:09,689 - sydney_events_scraper - INFO - Storing event: Good Friday
+2025-05-14 10:23:09,692 - sydney_events_scraper - INFO - Stored event: Good Friday
+2025-05-14 10:23:09,693 - sydney_events_scraper - INFO - Storing event: Christmas Eve
+2025-05-14 10:23:09,696 - sydney_events_scraper - INFO - Stored event: Christmas Eve
+2025-05-14 10:23:09,697 - sydney_events_scraper - INFO - Storing event: Christmas Day
+2025-05-14 10:23:09,700 - sydney_events_scraper - INFO - Stored event: Christmas Day
+2025-05-14 10:23:09,700 - sydney_events_scraper - INFO - Storing event: New Year's Eve
+2025-05-14 10:23:09,700 - sydney_events_scraper - INFO - Stored event: New Year's Eve
+2025-05-14 10:23:09,700 - sydney_events_scraper - INFO - Storing event: Good Friday
+2025-05-14 10:23:09,708 - sydney_events_scraper - INFO - Stored event: Good Friday
+2025-05-14 10:23:09,709 - sydney_events_scraper - INFO - Storing event: Christmas Eve
+2025-05-14 10:23:09,711 - sydney_events_scraper - INFO - Stored event: Christmas Eve
+2025-05-14 10:23:09,711 - sydney_events_scraper - INFO - Storing event: Christmas Day
+2025-05-14 10:23:09,716 - sydney_events_scraper - INFO - Stored event: Christmas Day
+2025-05-14 10:23:09,716 - sydney_events_scraper - INFO - Storing event: New Year's Eve
+2025-05-14 10:23:09,718 - sydney_events_scraper - INFO - Stored event: New Year's Eve
+2025-05-14 10:23:09,719 - sydney_events_scraper - INFO - Storing event: Good Friday
+2025-05-14 10:23:09,721 - sydney_events_scraper - INFO - Stored event: Good Friday
+2025-05-14 10:23:09,722 - sydney_events_scraper - INFO - Storing event: Christmas Eve
+2025-05-14 10:23:09,724 - sydney_events_scraper - INFO - Stored event: Christmas Eve
+2025-05-14 10:23:09,724 - sydney_events_scraper - INFO - Storing event: Christmas Day
+2025-05-14 10:23:09,727 - sydney_events_scraper - INFO - Stored event: Christmas Day
+2025-05-14 10:23:09,728 - sydney_events_scraper - INFO - Storing event: New Year's Eve
+2025-05-14 10:23:09,730 - sydney_events_scraper - INFO - Stored event: New Year's Eve
+2025-05-14 10:23:09,730 - sydney_events_scraper - INFO - Storing event: Good Friday
+2025-05-14 10:23:09,733 - sydney_events_scraper - INFO - Stored event: Good Friday
+2025-05-14 10:23:09,733 - sydney_events_scraper - INFO - Storing event: Christmas Eve
+2025-05-14 10:23:09,736 - sydney_events_scraper - INFO - Stored event: Christmas Eve
+2025-05-14 10:23:09,736 - sydney_events_scraper - INFO - Storing event: Christmas Day
+2025-05-14 10:23:09,739 - sydney_events_scraper - INFO - Stored event: Christmas Day
+2025-05-14 10:23:09,740 - sydney_events_scraper - INFO - Storing event: Good Friday
+2025-05-14 10:23:09,743 - sydney_events_scraper - INFO - Stored event: Good Friday
+2025-05-14 10:23:09,743 - sydney_events_scraper - INFO - Storing event: Christmas Eve
+2025-05-14 10:23:09,746 - sydney_events_scraper - INFO - Stored event: Christmas Eve
+2025-05-14 10:23:09,746 - sydney_events_scraper - INFO - Storing event: Christmas Day
+2025-05-14 10:23:09,749 - sydney_events_scraper - INFO - Stored event: Christmas Day
+2025-05-14 10:23:09,749 - sydney_events_scraper - INFO - Storing event: New Year's Eve
+2025-05-14 10:23:09,752 - sydney_events_scraper - INFO - Stored event: New Year's Eve
+2025-05-14 10:23:09,752 - sydney_events_scraper - INFO - Storing event: Good Friday
+2025-05-14 10:23:09,754 - sydney_events_scraper - INFO - Stored event: Good Friday
+2025-05-14 10:23:09,755 - sydney_events_scraper - INFO - Storing event: Christmas Eve
+2025-05-14 10:23:09,759 - sydney_events_scraper - INFO - Stored event: Christmas Eve
+2025-05-14 10:23:09,759 - sydney_events_scraper - INFO - Storing event: Christmas Day
+2025-05-14 10:23:09,762 - sydney_events_scraper - INFO - Stored event: Christmas Day
+2025-05-14 10:23:09,762 - sydney_events_scraper - INFO - Storing event: New Year's Eve
+2025-05-14 10:23:09,766 - sydney_events_scraper - INFO - Stored event: New Year's Eve
+2025-05-14 10:23:09,767 - sydney_events_scraper - INFO - Storing event: New Year's Eve
+2025-05-14 10:23:09,770 - sydney_events_scraper - INFO - Stored event: New Year's Eve
+2025-05-14 10:23:09,770 - sydney_events_scraper - INFO - Storing event: New Year's Eve
+2025-05-14 10:23:09,772 - sydney_events_scraper - INFO - Stored event: New Year's Eve
+2025-05-14 10:23:09,773 - sydney_events_scraper - INFO - Storing event: Easter Monday (regional holiday)
+2025-05-14 10:23:09,775 - sydney_events_scraper - INFO - Stored event: Easter Monday (regional holiday)
+2025-05-14 10:23:09,776 - sydney_events_scraper - INFO - Storing event: Easter Monday (regional holiday)
+2025-05-14 10:23:09,778 - sydney_events_scraper - INFO - Stored event: Easter Monday (regional holiday)
+2025-05-14 10:23:09,778 - sydney_events_scraper - INFO - Storing event: Easter Monday (regional holiday)
+2025-05-14 10:23:09,782 - sydney_events_scraper - INFO - Stored event: Easter Monday (regional holiday)
+2025-05-14 10:23:09,782 - sydney_events_scraper - INFO - Storing event: Easter Monday (regional holiday)
+2025-05-14 10:23:09,786 - sydney_events_scraper - INFO - Stored event: Easter Monday (regional holiday)
+2025-05-14 10:23:09,786 - sydney_events_scraper - INFO - Storing event: Easter Monday (regional holiday)
+2025-05-14 10:23:09,789 - sydney_events_scraper - INFO - Stored event: Easter Monday (regional holiday)
+2025-05-14 10:23:09,790 - sydney_events_scraper - INFO - Storing event: Easter Monday (regional holiday)
+2025-05-14 10:23:09,792 - sydney_events_scraper - INFO - Stored event: Easter Monday (regional holiday)
+2025-05-14 10:23:09,793 - sydney_events_scraper - INFO - Storing event: Easter Monday (regional holiday)
+2025-05-14 10:23:09,796 - sydney_events_scraper - INFO - Stored event: Easter Monday (regional holiday)
+2025-05-14 10:23:09,796 - sydney_events_scraper - INFO - Storing event: Easter Monday (regional holiday)
+2025-05-14 10:23:09,799 - sydney_events_scraper - INFO - Stored event: Easter Monday (regional holiday)
+2025-05-14 10:23:09,799 - sydney_events_scraper - INFO - Storing event: Easter Monday (regional holiday)
+2025-05-14 10:23:09,803 - sydney_events_scraper - INFO - Stored event: Easter Monday (regional holiday)
+2025-05-14 10:23:09,803 - sydney_events_scraper - INFO - Storing event: Easter Monday (regional holiday)
+2025-05-14 10:23:09,805 - sydney_events_scraper - INFO - Stored event: Easter Monday (regional holiday)
+2025-05-14 10:23:09,807 - sydney_events_scraper - INFO - Storing event: Australia Day Observed (regional holiday)
+2025-05-14 10:23:09,810 - sydney_events_scraper - INFO - Stored event: Australia Day Observed (regional holiday)
+2025-05-14 10:23:09,810 - sydney_events_scraper - INFO - Storing event: Holy Saturday (regional holiday)
+2025-05-14 10:23:09,813 - sydney_events_scraper - INFO - Stored event: Holy Saturday (regional holiday)
+2025-05-14 10:23:09,813 - sydney_events_scraper - INFO - Storing event: Labour Day (Queensland)
+2025-05-14 10:23:09,820 - sydney_events_scraper - INFO - Stored event: Labour Day (Queensland)
+2025-05-14 10:23:09,820 - sydney_events_scraper - INFO - Storing event: May Day (Northern Territory)
+2025-05-14 10:23:09,825 - sydney_events_scraper - INFO - Stored event: May Day (Northern Territory)
+2025-05-14 10:23:09,825 - sydney_events_scraper - INFO - Storing event: Labour Day (regional holiday)
+2025-05-14 10:23:09,830 - sydney_events_scraper - INFO - Stored event: Labour Day (regional holiday)
+2025-05-14 10:23:09,831 - sydney_events_scraper - INFO - Storing event: Labour Day (Western Australia)
+2025-05-14 10:23:09,834 - sydney_events_scraper - INFO - Stored event: Labour Day (Western Australia)
+2025-05-14 10:23:09,835 - sydney_events_scraper - INFO - Storing event: Labour Day (Queensland)
+2025-05-14 10:23:09,837 - sydney_events_scraper - INFO - Stored event: Labour Day (Queensland)
+2025-05-14 10:23:09,837 - sydney_events_scraper - INFO - Storing event: Labour Day (Victoria)
+2025-05-14 10:23:09,839 - sydney_events_scraper - INFO - Stored event: Labour Day (Victoria)
+2025-05-14 10:23:09,839 - sydney_events_scraper - INFO - Storing event: May Day (Northern Territory)
+2025-05-14 10:23:09,844 - sydney_events_scraper - INFO - Stored event: May Day (Northern Territory)
+2025-05-14 10:23:09,844 - sydney_events_scraper - INFO - Storing event: Labour Day (regional holiday)
+2025-05-14 10:23:09,847 - sydney_events_scraper - INFO - Stored event: Labour Day (regional holiday)
+2025-05-14 10:23:09,847 - sydney_events_scraper - INFO - Storing event: Labour Day (Western Australia)
+2025-05-14 10:23:09,851 - sydney_events_scraper - INFO - Stored event: Labour Day (Western Australia)
+2025-05-14 10:23:09,851 - sydney_events_scraper - INFO - Storing event: Labour Day (Victoria)
+2025-05-14 10:23:09,854 - sydney_events_scraper - INFO - Stored event: Labour Day (Victoria)
+2025-05-14 10:23:09,854 - sydney_events_scraper - INFO - Storing event: Labour Day (Queensland)
+2025-05-14 10:23:09,856 - sydney_events_scraper - INFO - Stored event: Labour Day (Queensland)
+2025-05-14 10:23:09,857 - sydney_events_scraper - INFO - Storing event: Labour Day (regional holiday)
+2025-05-14 10:23:09,860 - sydney_events_scraper - INFO - Stored event: Labour Day (regional holiday)
+2025-05-14 10:23:09,860 - sydney_events_scraper - INFO - Storing event: King's Birthday (Queensland)
+2025-05-14 10:23:09,860 - sydney_events_scraper - INFO - Stored event: King's Birthday (Queensland)
+2025-05-14 10:23:09,860 - sydney_events_scraper - INFO - Storing event: Holy Saturday (regional holiday)
+2025-05-14 10:23:09,866 - sydney_events_scraper - INFO - Stored event: Holy Saturday (regional holiday)
+2025-05-14 10:23:09,866 - sydney_events_scraper - INFO - Storing event: King's Birthday (Cocos and Keeling Islands)
+2025-05-14 10:23:09,870 - sydney_events_scraper - INFO - Stored event: King's Birthday (Cocos and Keeling Islands)
+2025-05-14 10:23:09,870 - sydney_events_scraper - INFO - Storing event: King's Birthday (regional holiday)
+2025-05-14 10:23:09,874 - sydney_events_scraper - INFO - Stored event: King's Birthday (regional holiday)
+2025-05-14 10:23:09,874 - sydney_events_scraper - INFO - Storing event: King's Birthday (Queensland)
+2025-05-14 10:23:09,877 - sydney_events_scraper - INFO - Stored event: King's Birthday (Queensland)
+2025-05-14 10:23:09,877 - sydney_events_scraper - INFO - Storing event: King's Birthday (Queensland)
+2025-05-14 10:23:09,881 - sydney_events_scraper - INFO - Stored event: King's Birthday (Queensland)
+2025-05-14 10:23:09,882 - sydney_events_scraper - INFO - Storing event: Labour Day (Western Australia)
+2025-05-14 10:23:09,885 - sydney_events_scraper - INFO - Stored event: Labour Day (Western Australia)
+2025-05-14 10:23:09,886 - sydney_events_scraper - INFO - Storing event: Eight Hours Day (Tasmania)
+2025-05-14 10:23:09,891 - sydney_events_scraper - INFO - Stored event: Eight Hours Day (Tasmania)
+2025-05-14 10:23:09,891 - sydney_events_scraper - INFO - Storing event: Easter Sunday (regional holiday)
+2025-05-14 10:23:09,895 - sydney_events_scraper - INFO - Stored event: Easter Sunday (regional holiday)
+2025-05-14 10:23:09,895 - sydney_events_scraper - INFO - Storing event: May Day (Northern Territory)
+2025-05-14 10:23:09,899 - sydney_events_scraper - INFO - Stored event: May Day (Northern Territory)
+2025-05-14 10:23:09,900 - sydney_events_scraper - INFO - Storing event: King's Birthday (Cocos and Keeling Islands) (tentative)
+2025-05-14 10:23:09,904 - sydney_events_scraper - INFO - Stored event: King's Birthday (Cocos and Keeling Islands) (tentative)
+2025-05-14 10:23:09,904 - sydney_events_scraper - INFO - Storing event: King's Birthday (Western Australia)
+2025-05-14 10:23:09,907 - sydney_events_scraper - INFO - Stored event: King's Birthday (Western Australia)
+2025-05-14 10:23:09,907 - sydney_events_scraper - INFO - Storing event: Labour Day (Western Australia)
+2025-05-14 10:23:09,911 - sydney_events_scraper - INFO - Stored event: Labour Day (Western Australia)
+2025-05-14 10:23:09,911 - sydney_events_scraper - INFO - Storing event: Labour Day (Victoria)
+2025-05-14 10:23:09,915 - sydney_events_scraper - INFO - Stored event: Labour Day (Victoria)
+2025-05-14 10:23:09,916 - sydney_events_scraper - INFO - Storing event: May Day (Northern Territory)
+2025-05-14 10:23:09,921 - sydney_events_scraper - INFO - Stored event: May Day (Northern Territory)
+2025-05-14 10:23:09,921 - sydney_events_scraper - INFO - Storing event: Easter Sunday (regional holiday)
+2025-05-14 10:23:09,926 - sydney_events_scraper - INFO - Stored event: Easter Sunday (regional holiday)
+2025-05-14 10:23:09,926 - sydney_events_scraper - INFO - Storing event: Labour Day (Queensland)
+2025-05-14 10:23:09,930 - sydney_events_scraper - INFO - Stored event: Labour Day (Queensland)
+2025-05-14 10:23:09,930 - sydney_events_scraper - INFO - Storing event: King's Birthday (Cocos and Keeling Islands) (tentative)
+2025-05-14 10:23:09,935 - sydney_events_scraper - INFO - Stored event: King's Birthday (Cocos and Keeling Islands) (tentative)
+2025-05-14 10:23:09,935 - sydney_events_scraper - INFO - Storing event: Labour Day (Victoria)
+2025-05-14 10:23:09,938 - sydney_events_scraper - INFO - Stored event: Labour Day (Victoria)
+2025-05-14 10:23:09,938 - sydney_events_scraper - INFO - Storing event: Labour Day (Victoria)
+2025-05-14 10:23:09,944 - sydney_events_scraper - INFO - Stored event: Labour Day (Victoria)
+2025-05-14 10:23:09,944 - sydney_events_scraper - INFO - Storing event: Labour Day (Christmas Island)
+2025-05-14 10:23:09,949 - sydney_events_scraper - INFO - Stored event: Labour Day (Christmas Island)
+2025-05-14 10:23:09,949 - sydney_events_scraper - INFO - Storing event: Easter Sunday (regional holiday)
+2025-05-14 10:23:09,952 - sydney_events_scraper - INFO - Stored event: Easter Sunday (regional holiday)
+2025-05-14 10:23:09,952 - sydney_events_scraper - INFO - Storing event: Holy Saturday (regional holiday)
+2025-05-14 10:23:09,959 - sydney_events_scraper - INFO - Stored event: Holy Saturday (regional holiday)
+2025-05-14 10:23:09,960 - sydney_events_scraper - INFO - Storing event: Labour Day (Western Australia)
+2025-05-14 10:23:09,962 - sydney_events_scraper - INFO - Stored event: Labour Day (Western Australia)
+2025-05-14 10:23:09,962 - sydney_events_scraper - INFO - Storing event: Eight Hours Day (Tasmania)
+2025-05-14 10:23:09,967 - sydney_events_scraper - INFO - Stored event: Eight Hours Day (Tasmania)
+2025-05-14 10:23:09,967 - sydney_events_scraper - INFO - Storing event: Easter Sunday (regional holiday)
+2025-05-14 10:23:09,971 - sydney_events_scraper - INFO - Stored event: Easter Sunday (regional holiday)
+2025-05-14 10:23:09,971 - sydney_events_scraper - INFO - Storing event: Labour Day (Queensland)
+2025-05-14 10:23:09,976 - sydney_events_scraper - INFO - Stored event: Labour Day (Queensland)
+2025-05-14 10:23:09,976 - sydney_events_scraper - INFO - Storing event: King's Birthday (Western Australia)
+2025-05-14 10:23:09,980 - sydney_events_scraper - INFO - Stored event: King's Birthday (Western Australia)
+2025-05-14 10:23:09,980 - sydney_events_scraper - INFO - Storing event: Eight Hours Day (Tasmania)
+2025-05-14 10:23:09,983 - sydney_events_scraper - INFO - Stored event: Eight Hours Day (Tasmania)
+2025-05-14 10:23:09,983 - sydney_events_scraper - INFO - Storing event: Easter Sunday (regional holiday)
+2025-05-14 10:23:09,985 - sydney_events_scraper - INFO - Stored event: Easter Sunday (regional holiday)
+2025-05-14 10:23:09,985 - sydney_events_scraper - INFO - Storing event: King's Birthday (Cocos and Keeling Islands)
+2025-05-14 10:23:09,990 - sydney_events_scraper - INFO - Stored event: King's Birthday (Cocos and Keeling Islands)
+2025-05-14 10:23:09,990 - sydney_events_scraper - INFO - Storing event: King's Birthday (regional holiday)
+2025-05-14 10:23:09,990 - sydney_events_scraper - INFO - Stored event: King's Birthday (regional holiday)
+2025-05-14 10:23:09,990 - sydney_events_scraper - INFO - Storing event: Labour Day (Western Australia)
+2025-05-14 10:23:10,000 - sydney_events_scraper - INFO - Stored event: Labour Day (Western Australia)
+2025-05-14 10:23:10,000 - sydney_events_scraper - INFO - Storing event: Labour Day (Victoria)
+2025-05-14 10:23:10,003 - sydney_events_scraper - INFO - Stored event: Labour Day (Victoria)
+2025-05-14 10:23:10,004 - sydney_events_scraper - INFO - Storing event: Labour Day (Christmas Island)
+2025-05-14 10:23:10,008 - sydney_events_scraper - INFO - Stored event: Labour Day (Christmas Island)
+2025-05-14 10:23:10,008 - sydney_events_scraper - INFO - Storing event: Labour Day (Queensland)
+2025-05-14 10:23:10,011 - sydney_events_scraper - INFO - Stored event: Labour Day (Queensland)
+2025-05-14 10:23:10,011 - sydney_events_scraper - INFO - Storing event: King's Birthday (Western Australia)
+2025-05-14 10:23:10,011 - sydney_events_scraper - INFO - Stored event: King's Birthday (Western Australia)
+2025-05-14 10:23:10,011 - sydney_events_scraper - INFO - Storing event: Australia Day Observed (regional holiday)
+2025-05-14 10:23:10,020 - sydney_events_scraper - INFO - Stored event: Australia Day Observed (regional holiday)
+2025-05-14 10:23:10,021 - sydney_events_scraper - INFO - Storing event: Labour Day (Western Australia)
+2025-05-14 10:23:10,023 - sydney_events_scraper - INFO - Stored event: Labour Day (Western Australia)
+2025-05-14 10:23:10,023 - sydney_events_scraper - INFO - Storing event: Labour Day (Victoria)
+2025-05-14 10:23:10,028 - sydney_events_scraper - INFO - Stored event: Labour Day (Victoria)
+2025-05-14 10:23:10,028 - sydney_events_scraper - INFO - Storing event: Holy Saturday (regional holiday)
+2025-05-14 10:23:10,031 - sydney_events_scraper - INFO - Stored event: Holy Saturday (regional holiday)
+2025-05-14 10:23:10,031 - sydney_events_scraper - INFO - Storing event: Easter Sunday (regional holiday)
+2025-05-14 10:23:10,033 - sydney_events_scraper - INFO - Stored event: Easter Sunday (regional holiday)
+2025-05-14 10:23:10,033 - sydney_events_scraper - INFO - Storing event: May Day (Northern Territory)
+2025-05-14 10:23:10,039 - sydney_events_scraper - INFO - Stored event: May Day (Northern Territory)
+2025-05-14 10:23:10,039 - sydney_events_scraper - INFO - Storing event: King's Birthday (regional holiday)
+2025-05-14 10:23:10,042 - sydney_events_scraper - INFO - Stored event: King's Birthday (regional holiday)
+2025-05-14 10:23:10,042 - sydney_events_scraper - INFO - Storing event: Labour Day (regional holiday)
+2025-05-14 10:23:10,046 - sydney_events_scraper - INFO - Stored event: Labour Day (regional holiday)
+2025-05-14 10:23:10,046 - sydney_events_scraper - INFO - Storing event: Labour Day (Victoria)
+2025-05-14 10:23:10,049 - sydney_events_scraper - INFO - Stored event: Labour Day (Victoria)
+2025-05-14 10:23:10,049 - sydney_events_scraper - INFO - Storing event: Holy Saturday (regional holiday)
+2025-05-14 10:23:10,052 - sydney_events_scraper - INFO - Stored event: Holy Saturday (regional holiday)
+2025-05-14 10:23:10,052 - sydney_events_scraper - INFO - Storing event: Labour Day (Queensland)
+2025-05-14 10:23:10,052 - sydney_events_scraper - INFO - Stored event: Labour Day (Queensland)
+2025-05-14 10:23:10,052 - sydney_events_scraper - INFO - Storing event: Labour Day (regional holiday)
+2025-05-14 10:23:10,065 - sydney_events_scraper - INFO - Stored event: Labour Day (regional holiday)
+2025-05-14 10:23:10,065 - sydney_events_scraper - INFO - Storing event: Holy Saturday (regional holiday)
+2025-05-14 10:23:10,067 - sydney_events_scraper - INFO - Stored event: Holy Saturday (regional holiday)
+2025-05-14 10:23:10,067 - sydney_events_scraper - INFO - Storing event: Labour Day (Queensland)
+2025-05-14 10:23:10,077 - sydney_events_scraper - INFO - Stored event: Labour Day (Queensland)
+2025-05-14 10:23:10,077 - sydney_events_scraper - INFO - Storing event: King's Birthday (regional holiday)
+2025-05-14 10:23:10,083 - sydney_events_scraper - INFO - Stored event: King's Birthday (regional holiday)
+2025-05-14 10:23:10,083 - sydney_events_scraper - INFO - Storing event: Labour Day (regional holiday)
+2025-05-14 10:23:10,086 - sydney_events_scraper - INFO - Stored event: Labour Day (regional holiday)
+2025-05-14 10:23:10,086 - sydney_events_scraper - INFO - Storing event: King's Birthday (Queensland)
+2025-05-14 10:23:10,092 - sydney_events_scraper - INFO - Stored event: King's Birthday (Queensland)
+2025-05-14 10:23:10,092 - sydney_events_scraper - INFO - Storing event: Labour Day (Western Australia)
+2025-05-14 10:23:10,096 - sydney_events_scraper - INFO - Stored event: Labour Day (Western Australia)
+2025-05-14 10:23:10,096 - sydney_events_scraper - INFO - Storing event: Eight Hours Day (Tasmania)
+2025-05-14 10:23:10,099 - sydney_events_scraper - INFO - Stored event: Eight Hours Day (Tasmania)
+2025-05-14 10:23:10,099 - sydney_events_scraper - INFO - Storing event: King's Birthday (regional holiday)
+2025-05-14 10:23:10,101 - sydney_events_scraper - INFO - Stored event: King's Birthday (regional holiday)
+2025-05-14 10:23:10,103 - sydney_events_scraper - INFO - Storing event: King's Birthday (Western Australia)
+2025-05-14 10:23:10,105 - sydney_events_scraper - INFO - Stored event: King's Birthday (Western Australia)
+2025-05-14 10:23:10,106 - sydney_events_scraper - INFO - Storing event: King's Birthday (Queensland)
+2025-05-14 10:23:10,108 - sydney_events_scraper - INFO - Stored event: King's Birthday (Queensland)
+2025-05-14 10:23:10,108 - sydney_events_scraper - INFO - Storing event: Eight Hours Day (Tasmania)
+2025-05-14 10:23:10,113 - sydney_events_scraper - INFO - Stored event: Eight Hours Day (Tasmania)
+2025-05-14 10:23:10,113 - sydney_events_scraper - INFO - Storing event: Holy Saturday (regional holiday)
+2025-05-14 10:23:10,117 - sydney_events_scraper - INFO - Stored event: Holy Saturday (regional holiday)
+2025-05-14 10:23:10,118 - sydney_events_scraper - INFO - Storing event: May Day (Northern Territory)
+2025-05-14 10:23:10,120 - sydney_events_scraper - INFO - Stored event: May Day (Northern Territory)
+2025-05-14 10:23:10,120 - sydney_events_scraper - INFO - Storing event: King's Birthday (Cocos and Keeling Islands) (tentative)
+2025-05-14 10:23:10,123 - sydney_events_scraper - INFO - Stored event: King's Birthday (Cocos and Keeling Islands) (tentative)
+2025-05-14 10:23:10,124 - sydney_events_scraper - INFO - Storing event: King's Birthday (regional holiday)
+2025-05-14 10:23:10,127 - sydney_events_scraper - INFO - Stored event: King's Birthday (regional holiday)
+2025-05-14 10:23:10,127 - sydney_events_scraper - INFO - Storing event: King's Birthday (Queensland)
+2025-05-14 10:23:10,134 - sydney_events_scraper - INFO - Stored event: King's Birthday (Queensland)
+2025-05-14 10:23:10,135 - sydney_events_scraper - INFO - Storing event: Labour Day (Western Australia)
+2025-05-14 10:23:10,140 - sydney_events_scraper - INFO - Stored event: Labour Day (Western Australia)
+2025-05-14 10:23:10,141 - sydney_events_scraper - INFO - Storing event: Eight Hours Day (Tasmania)
+2025-05-14 10:23:10,143 - sydney_events_scraper - INFO - Stored event: Eight Hours Day (Tasmania)
+2025-05-14 10:23:10,143 - sydney_events_scraper - INFO - Storing event: Eight Hours Day (Tasmania)
+2025-05-14 10:23:10,143 - sydney_events_scraper - INFO - Stored event: Eight Hours Day (Tasmania)
+2025-05-14 10:23:10,143 - sydney_events_scraper - INFO - Storing event: Labour Day (Victoria)
+2025-05-14 10:23:10,153 - sydney_events_scraper - INFO - Stored event: Labour Day (Victoria)
+2025-05-14 10:23:10,153 - sydney_events_scraper - INFO - Storing event: May Day (Northern Territory)
+2025-05-14 10:23:10,155 - sydney_events_scraper - INFO - Stored event: May Day (Northern Territory)
+2025-05-14 10:23:10,156 - sydney_events_scraper - INFO - Storing event: Labour Day (regional holiday)
+2025-05-14 10:23:10,156 - sydney_events_scraper - INFO - Stored event: Labour Day (regional holiday)
+2025-05-14 10:23:10,156 - sydney_events_scraper - INFO - Storing event: Holy Saturday (regional holiday)
+2025-05-14 10:23:10,156 - sydney_events_scraper - INFO - Stored event: Holy Saturday (regional holiday)
+2025-05-14 10:23:10,156 - sydney_events_scraper - INFO - Storing event: Holy Saturday (regional holiday)
+2025-05-14 10:23:10,166 - sydney_events_scraper - INFO - Stored event: Holy Saturday (regional holiday)
+2025-05-14 10:23:10,166 - sydney_events_scraper - INFO - Storing event: May Day (Northern Territory)
+2025-05-14 10:23:10,169 - sydney_events_scraper - INFO - Stored event: May Day (Northern Territory)
+2025-05-14 10:23:10,170 - sydney_events_scraper - INFO - Storing event: King's Birthday (Western Australia)
+2025-05-14 10:23:10,173 - sydney_events_scraper - INFO - Stored event: King's Birthday (Western Australia)
+2025-05-14 10:23:10,174 - sydney_events_scraper - INFO - Storing event: Eight Hours Day (Tasmania)
+2025-05-14 10:23:10,178 - sydney_events_scraper - INFO - Stored event: Eight Hours Day (Tasmania)
+2025-05-14 10:23:10,179 - sydney_events_scraper - INFO - Storing event: May Day (Northern Territory)
+2025-05-14 10:23:10,181 - sydney_events_scraper - INFO - Stored event: May Day (Northern Territory)
+2025-05-14 10:23:10,182 - sydney_events_scraper - INFO - Storing event: Labour Day (regional holiday)
+2025-05-14 10:23:10,182 - sydney_events_scraper - INFO - Stored event: Labour Day (regional holiday)
+2025-05-14 10:23:10,182 - sydney_events_scraper - INFO - Storing event: Eight Hours Day (Tasmania)
+2025-05-14 10:23:10,189 - sydney_events_scraper - INFO - Stored event: Eight Hours Day (Tasmania)
+2025-05-14 10:23:10,189 - sydney_events_scraper - INFO - Storing event: Labour Day (Queensland)
+2025-05-14 10:23:10,193 - sydney_events_scraper - INFO - Stored event: Labour Day (Queensland)
+2025-05-14 10:23:10,193 - sydney_events_scraper - INFO - Storing event: King's Birthday (Western Australia)
+2025-05-14 10:23:10,197 - sydney_events_scraper - INFO - Stored event: King's Birthday (Western Australia)
+2025-05-14 10:23:10,198 - sydney_events_scraper - INFO - Storing event: King's Birthday (regional holiday)
+2025-05-14 10:23:10,201 - sydney_events_scraper - INFO - Stored event: King's Birthday (regional holiday)
+2025-05-14 10:23:10,202 - sydney_events_scraper - INFO - Storing event: King's Birthday (Queensland)
+2025-05-14 10:23:10,204 - sydney_events_scraper - INFO - Stored event: King's Birthday (Queensland)
+2025-05-14 10:23:10,205 - sydney_events_scraper - INFO - Storing event: Eight Hours Day (Tasmania)
+2025-05-14 10:23:10,209 - sydney_events_scraper - INFO - Stored event: Eight Hours Day (Tasmania)
+2025-05-14 10:23:10,209 - sydney_events_scraper - INFO - Storing event: Easter Sunday (regional holiday)
+2025-05-14 10:23:10,212 - sydney_events_scraper - INFO - Stored event: Easter Sunday (regional holiday)
+2025-05-14 10:23:10,212 - sydney_events_scraper - INFO - Storing event: King's Birthday (Cocos and Keeling Islands) (tentative)
+2025-05-14 10:23:10,212 - sydney_events_scraper - INFO - Stored event: King's Birthday (Cocos and Keeling Islands) (tentative)
+2025-05-14 10:23:10,212 - sydney_events_scraper - INFO - Storing event: King's Birthday (Western Australia)
+2025-05-14 10:23:10,219 - sydney_events_scraper - INFO - Stored event: King's Birthday (Western Australia)
+2025-05-14 10:23:10,219 - sydney_events_scraper - INFO - Storing event: Labour Day (Victoria)
+2025-05-14 10:23:10,222 - sydney_events_scraper - INFO - Stored event: Labour Day (Victoria)
+2025-05-14 10:23:10,222 - sydney_events_scraper - INFO - Storing event: Holy Saturday (regional holiday)
+2025-05-14 10:23:10,224 - sydney_events_scraper - INFO - Stored event: Holy Saturday (regional holiday)
+2025-05-14 10:23:10,224 - sydney_events_scraper - INFO - Storing event: May Day (Northern Territory)
+2025-05-14 10:23:10,226 - sydney_events_scraper - INFO - Stored event: May Day (Northern Territory)
+2025-05-14 10:23:10,226 - sydney_events_scraper - INFO - Storing event: Labour Day (regional holiday)
+2025-05-14 10:23:10,233 - sydney_events_scraper - INFO - Stored event: Labour Day (regional holiday)
+2025-05-14 10:23:10,233 - sydney_events_scraper - INFO - Storing event: Labour Day (Western Australia)
+2025-05-14 10:23:10,237 - sydney_events_scraper - INFO - Stored event: Labour Day (Western Australia)
+2025-05-14 10:23:10,237 - sydney_events_scraper - INFO - Storing event: Easter Sunday (regional holiday)
+2025-05-14 10:23:10,242 - sydney_events_scraper - INFO - Stored event: Easter Sunday (regional holiday)
+2025-05-14 10:23:10,242 - sydney_events_scraper - INFO - Storing event: Labour Day (Queensland)
+2025-05-14 10:23:10,245 - sydney_events_scraper - INFO - Stored event: Labour Day (Queensland)
+2025-05-14 10:23:10,245 - sydney_events_scraper - INFO - Storing event: King's Birthday (Western Australia)
+2025-05-14 10:23:10,245 - sydney_events_scraper - INFO - Stored event: King's Birthday (Western Australia)
+2025-05-14 10:23:10,245 - sydney_events_scraper - INFO - Storing event: Labour Day (regional holiday)
+2025-05-14 10:23:10,252 - sydney_events_scraper - INFO - Stored event: Labour Day (regional holiday)
+2025-05-14 10:23:10,252 - sydney_events_scraper - INFO - Storing event: New Year's Day
+2025-05-14 10:23:10,254 - sydney_events_scraper - INFO - Stored event: New Year's Day
+2025-05-14 10:23:10,254 - sydney_events_scraper - INFO - Storing event: Australia Day
+2025-05-14 10:23:10,257 - sydney_events_scraper - INFO - Stored event: Australia Day
+2025-05-14 10:23:10,258 - sydney_events_scraper - INFO - Storing event: Australia Day Observed (regional holiday)
+2025-05-14 10:23:10,261 - sydney_events_scraper - INFO - Stored event: Australia Day Observed (regional holiday)
+2025-05-14 10:23:10,261 - sydney_events_scraper - INFO - Storing event: Labour Day (Western Australia)
+2025-05-14 10:23:10,265 - sydney_events_scraper - INFO - Stored event: Labour Day (Western Australia)
+2025-05-14 10:23:10,266 - sydney_events_scraper - INFO - Storing event: Labour Day (Victoria)
+2025-05-14 10:23:10,268 - sydney_events_scraper - INFO - Stored event: Labour Day (Victoria)
+2025-05-14 10:23:10,268 - sydney_events_scraper - INFO - Storing event: Eight Hours Day (Tasmania)
+2025-05-14 10:23:10,268 - sydney_events_scraper - INFO - Stored event: Eight Hours Day (Tasmania)
+2025-05-14 10:23:10,268 - sydney_events_scraper - INFO - Storing event: Harmony Day
+2025-05-14 10:23:10,278 - sydney_events_scraper - INFO - Stored event: Harmony Day
+2025-05-14 10:23:10,278 - sydney_events_scraper - INFO - Storing event: Daylight Saving Time ends
+2025-05-14 10:23:10,281 - sydney_events_scraper - INFO - Stored event: Daylight Saving Time ends
+2025-05-14 10:23:10,281 - sydney_events_scraper - INFO - Storing event: Good Friday
+2025-05-14 10:23:10,281 - sydney_events_scraper - INFO - Stored event: Good Friday
+2025-05-14 10:23:10,281 - sydney_events_scraper - INFO - Storing event: Holy Saturday (regional holiday)
+2025-05-14 10:23:10,281 - sydney_events_scraper - INFO - Stored event: Holy Saturday (regional holiday)
+2025-05-14 10:23:10,281 - sydney_events_scraper - INFO - Storing event: Easter Sunday (regional holiday)
+2025-05-14 10:23:10,292 - sydney_events_scraper - INFO - Stored event: Easter Sunday (regional holiday)
+2025-05-14 10:23:10,292 - sydney_events_scraper - INFO - Storing event: Easter Monday (regional holiday)
+2025-05-14 10:23:10,295 - sydney_events_scraper - INFO - Stored event: Easter Monday (regional holiday)
+2025-05-14 10:23:10,295 - sydney_events_scraper - INFO - Storing event: ANZAC Day
+2025-05-14 10:23:10,297 - sydney_events_scraper - INFO - Stored event: ANZAC Day
+2025-05-14 10:23:10,297 - sydney_events_scraper - INFO - Storing event: May Day (Northern Territory)
+2025-05-14 10:23:10,304 - sydney_events_scraper - INFO - Stored event: May Day (Northern Territory)
+2025-05-14 10:23:10,305 - sydney_events_scraper - INFO - Storing event: Labour Day (Queensland)
+2025-05-14 10:23:10,308 - sydney_events_scraper - INFO - Stored event: Labour Day (Queensland)
+2025-05-14 10:23:10,308 - sydney_events_scraper - INFO - Storing event: King's Birthday (Cocos and Keeling Islands) (tentative)
+2025-05-14 10:23:10,311 - sydney_events_scraper - INFO - Stored event: King's Birthday (Cocos and Keeling Islands) (tentative)
+2025-05-14 10:23:10,312 - sydney_events_scraper - INFO - Storing event: King's Birthday (regional holiday)
+2025-05-14 10:23:10,315 - sydney_events_scraper - INFO - Stored event: King's Birthday (regional holiday)
+2025-05-14 10:23:10,315 - sydney_events_scraper - INFO - Storing event: King's Birthday (Western Australia)
+2025-05-14 10:23:10,318 - sydney_events_scraper - INFO - Stored event: King's Birthday (Western Australia)
+2025-05-14 10:23:10,319 - sydney_events_scraper - INFO - Storing event: Daylight Saving Time starts
+2025-05-14 10:23:10,321 - sydney_events_scraper - INFO - Stored event: Daylight Saving Time starts
+2025-05-14 10:23:10,322 - sydney_events_scraper - INFO - Storing event: King's Birthday (Queensland)
+2025-05-14 10:23:10,326 - sydney_events_scraper - INFO - Stored event: King's Birthday (Queensland)
+2025-05-14 10:23:10,327 - sydney_events_scraper - INFO - Storing event: Labour Day (regional holiday)
+2025-05-14 10:23:10,328 - sydney_events_scraper - INFO - Stored event: Labour Day (regional holiday)
+2025-05-14 10:23:10,328 - sydney_events_scraper - INFO - Storing event: Remembrance Day
+2025-05-14 10:23:10,328 - sydney_events_scraper - INFO - Stored event: Remembrance Day
+2025-05-14 10:23:10,328 - sydney_events_scraper - INFO - Storing event: Christmas Eve
+2025-05-14 10:23:10,328 - sydney_events_scraper - INFO - Stored event: Christmas Eve
+2025-05-14 10:23:10,328 - sydney_events_scraper - INFO - Storing event: Christmas Day
+2025-05-14 10:23:10,343 - sydney_events_scraper - INFO - Stored event: Christmas Day
+2025-05-14 10:23:10,344 - sydney_events_scraper - INFO - Storing event: Boxing Day
+2025-05-14 10:23:10,347 - sydney_events_scraper - INFO - Stored event: Boxing Day
+2025-05-14 10:23:10,347 - sydney_events_scraper - INFO - Storing event: New Year's Eve
+2025-05-14 10:23:10,356 - sydney_events_scraper - INFO - Stored event: New Year's Eve
+2025-05-14 10:23:10,356 - sydney_events_scraper - INFO - Storing event: Easter Sunday (regional holiday)
+2025-05-14 10:23:10,359 - sydney_events_scraper - INFO - Stored event: Easter Sunday (regional holiday)
+2025-05-14 10:23:10,359 - sydney_events_scraper - INFO - Storing event: Easter Sunday (regional holiday)
+2025-05-14 10:23:10,363 - sydney_events_scraper - INFO - Stored event: Easter Sunday (regional holiday)
+2025-05-14 10:23:10,364 - sydney_events_scraper - INFO - Fetching events from PredictHQ API
+2025-05-14 10:23:10,364 - sydney_events_scraper - ERROR - PredictHQ API key not set.
+2025-05-14 10:23:10,364 - sydney_events_scraper - INFO - Fetching events from Eventful API
+2025-05-14 10:23:10,364 - sydney_events_scraper - WARNING - Eventful API key missing
+2025-05-14 10:23:10,364 - sydney_events_scraper - INFO - All scrapers finished

@@ -1,0 +1,821 @@
+2025-05-13 19:56:44,058 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-05-13 19:56:44,060 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-13 19:56:44,074 - werkzeug - INFO -  * Restarting with stat
+2025-05-13 19:56:44,664 - werkzeug - WARNING -  * Debugger is active!
+2025-05-13 19:56:44,664 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-13 19:56:56,081 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 19:56:56] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-05-13 19:56:56,319 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 19:56:56] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-05-13 19:56:56,319 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 19:56:56] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-05-13 19:56:57,489 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 19:56:57] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=bjBlU6GHyUzvfP9FD5U5 HTTP/1.1" 200 -
+2025-05-13 19:56:57,520 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 19:56:57] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-05-13 20:00:16,206 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-05-13 20:00:16,206 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-13 20:00:16,206 - werkzeug - INFO -  * Restarting with stat
+2025-05-13 20:00:16,742 - werkzeug - WARNING -  * Debugger is active!
+2025-05-13 20:00:16,748 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-13 20:00:32,834 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:00:32] "GET / HTTP/1.1" 200 -
+2025-05-13 20:00:32,956 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:00:32] "[35m[1mGET /static/css/styles.css HTTP/1.1[0m" 500 -
+2025-05-13 20:00:32,961 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:00:32] "[35m[1mGET /static/js/script.js HTTP/1.1[0m" 500 -
+2025-05-13 20:00:34,644 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:00:34] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-13 20:01:40,732 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-05-13 20:01:40,732 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-13 20:01:40,732 - werkzeug - INFO -  * Restarting with stat
+2025-05-13 20:01:41,280 - werkzeug - WARNING -  * Debugger is active!
+2025-05-13 20:01:41,289 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-13 20:01:44,288 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:01:44] "GET / HTTP/1.1" 200 -
+2025-05-13 20:01:44,517 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:01:44] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-05-13 20:01:44,524 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:01:44] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-05-13 20:01:44,949 - sydney_events_server - ERROR - Error fetching categories: no such table: events
+2025-05-13 20:01:44,949 - sydney_events_server - ERROR - Error fetching venues: no such table: events
+2025-05-13 20:01:44,957 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:01:44] "[35m[1mGET /api/categories HTTP/1.1[0m" 500 -
+2025-05-13 20:01:44,957 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:01:44] "[35m[1mGET /api/venues HTTP/1.1[0m" 500 -
+2025-05-13 20:01:44,965 - sydney_events_server - ERROR - Error fetching events: no such table: events
+2025-05-13 20:01:44,965 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:01:44] "[35m[1mGET /api/events HTTP/1.1[0m" 500 -
+2025-05-13 20:01:45,287 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:01:45] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-13 20:03:56,780 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:03:56] "GET / HTTP/1.1" 200 -
+2025-05-13 20:03:56,834 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:03:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 20:03:56,836 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:03:56] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-13 20:03:57,481 - sydney_events_server - ERROR - Error fetching events: no such table: events
+2025-05-13 20:03:57,481 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:03:57] "[35m[1mGET /api/events HTTP/1.1[0m" 500 -
+2025-05-13 20:03:57,481 - sydney_events_server - ERROR - Error fetching categories: no such table: events
+2025-05-13 20:03:57,484 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:03:57] "[35m[1mGET /api/categories HTTP/1.1[0m" 500 -
+2025-05-13 20:03:57,484 - sydney_events_server - ERROR - Error fetching venues: no such table: events
+2025-05-13 20:03:57,487 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:03:57] "[35m[1mGET /api/venues HTTP/1.1[0m" 500 -
+2025-05-13 20:03:57,632 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:03:57] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-13 20:04:13,875 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-05-13 20:04:13,875 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-13 20:04:13,875 - werkzeug - INFO -  * Restarting with stat
+2025-05-13 20:04:14,408 - werkzeug - WARNING -  * Debugger is active!
+2025-05-13 20:04:14,416 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-13 20:04:22,736 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:04:22] "GET / HTTP/1.1" 200 -
+2025-05-13 20:04:22,962 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:04:22] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 20:04:22,978 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:04:22] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-13 20:04:23,094 - sydney_events_server - ERROR - Error fetching events: no such table: events
+2025-05-13 20:04:23,094 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:04:23] "[35m[1mGET /api/events HTTP/1.1[0m" 500 -
+2025-05-13 20:04:23,094 - sydney_events_server - ERROR - Error fetching categories: no such table: events
+2025-05-13 20:04:23,094 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:04:23] "[35m[1mGET /api/categories HTTP/1.1[0m" 500 -
+2025-05-13 20:04:23,101 - sydney_events_server - ERROR - Error fetching venues: no such table: events
+2025-05-13 20:04:23,101 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:04:23] "[35m[1mGET /api/venues HTTP/1.1[0m" 500 -
+2025-05-13 20:04:23,129 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:04:23] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-13 20:11:37,399 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:11:37] "GET / HTTP/1.1" 200 -
+2025-05-13 20:11:37,455 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:11:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 20:11:37,457 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:11:37] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-13 20:11:37,516 - sydney_events_server - ERROR - Error fetching events: no such table: events
+2025-05-13 20:11:37,518 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:11:37] "[35m[1mGET /api/events HTTP/1.1[0m" 500 -
+2025-05-13 20:11:37,526 - sydney_events_server - ERROR - Error fetching categories: no such table: events
+2025-05-13 20:11:37,526 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:11:37] "[35m[1mGET /api/categories HTTP/1.1[0m" 500 -
+2025-05-13 20:11:37,530 - sydney_events_server - ERROR - Error fetching venues: no such table: events
+2025-05-13 20:11:37,530 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:11:37] "[35m[1mGET /api/venues HTTP/1.1[0m" 500 -
+2025-05-13 20:11:37,679 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:11:37] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-13 20:11:44,130 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:11:44] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-13 20:21:37,637 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-05-13 20:21:37,637 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-13 20:21:37,637 - werkzeug - INFO -  * Restarting with stat
+2025-05-13 20:21:38,368 - werkzeug - WARNING -  * Debugger is active!
+2025-05-13 20:21:38,389 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-13 20:23:01,465 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-05-13 20:23:01,465 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-13 20:23:01,475 - werkzeug - INFO -  * Restarting with stat
+2025-05-13 20:23:02,182 - werkzeug - WARNING -  * Debugger is active!
+2025-05-13 20:23:02,198 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-13 20:23:13,436 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:23:13] "GET / HTTP/1.1" 200 -
+2025-05-13 20:23:14,301 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:23:14] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-05-13 20:23:14,328 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:23:14] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-05-13 20:23:14,475 - sydney_events_server - ERROR - Error fetching events: no such table: events
+2025-05-13 20:23:14,475 - sydney_events_server - ERROR - Error fetching venues: no such table: events
+2025-05-13 20:23:14,475 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:23:14] "[35m[1mGET /api/events HTTP/1.1[0m" 500 -
+2025-05-13 20:23:14,475 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:23:14] "[35m[1mGET /api/venues HTTP/1.1[0m" 500 -
+2025-05-13 20:23:14,481 - sydney_events_server - ERROR - Error fetching categories: no such table: events
+2025-05-13 20:23:14,483 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:23:14] "[35m[1mGET /api/categories HTTP/1.1[0m" 500 -
+2025-05-13 20:23:14,580 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:23:14] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-13 20:39:03,749 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hitan\\OneDrive - iiit-b\\College\\Internshi\\Louder\\server\\event_scraper.py', reloading
+2025-05-13 20:39:03,798 - werkzeug - INFO -  * Restarting with stat
+2025-05-13 20:39:04,317 - werkzeug - WARNING -  * Debugger is active!
+2025-05-13 20:39:04,334 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-13 20:39:28,631 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-05-13 20:39:28,631 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-13 20:39:28,631 - werkzeug - INFO -  * Restarting with stat
+2025-05-13 20:39:29,130 - werkzeug - WARNING -  * Debugger is active!
+2025-05-13 20:39:29,137 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-13 20:40:29,066 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:40:29] "GET / HTTP/1.1" 200 -
+2025-05-13 20:40:29,405 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:40:29] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 20:40:29,413 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:40:29] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-13 20:40:29,717 - sydney_events_server - ERROR - Error fetching categories: no such table: events
+2025-05-13 20:40:29,717 - sydney_events_server - ERROR - Error fetching events: no such table: events
+2025-05-13 20:40:29,717 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:40:29] "[35m[1mGET /api/categories HTTP/1.1[0m" 500 -
+2025-05-13 20:40:29,717 - sydney_events_server - ERROR - Error fetching venues: no such table: events
+2025-05-13 20:40:29,717 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:40:29] "[35m[1mGET /api/events HTTP/1.1[0m" 500 -
+2025-05-13 20:40:29,717 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:40:29] "[35m[1mGET /api/venues HTTP/1.1[0m" 500 -
+2025-05-13 20:40:29,766 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:40:29] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-13 20:53:35,479 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-05-13 20:53:35,479 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-13 20:53:35,479 - werkzeug - INFO -  * Restarting with stat
+2025-05-13 20:53:36,005 - werkzeug - WARNING -  * Debugger is active!
+2025-05-13 20:53:36,005 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-13 20:53:44,839 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:53:44] "GET / HTTP/1.1" 200 -
+2025-05-13 20:53:45,177 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:53:45] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 20:53:45,188 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:53:45] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-13 20:53:45,504 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:53:45] "GET /api/events HTTP/1.1" 200 -
+2025-05-13 20:53:45,504 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:53:45] "GET /api/categories HTTP/1.1" 200 -
+2025-05-13 20:53:45,504 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:53:45] "GET /api/venues HTTP/1.1" 200 -
+2025-05-13 20:53:45,552 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:53:45] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-13 20:54:14,101 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:54:14] "GET / HTTP/1.1" 200 -
+2025-05-13 20:54:14,125 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:54:14] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 20:54:14,131 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:54:14] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-13 20:54:14,148 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:54:14] "GET /api/events HTTP/1.1" 200 -
+2025-05-13 20:54:14,150 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:54:14] "GET /api/venues HTTP/1.1" 200 -
+2025-05-13 20:54:14,150 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:54:14] "GET /api/categories HTTP/1.1" 200 -
+2025-05-13 20:54:14,202 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 20:54:14] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-13 22:03:18,671 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-05-13 22:03:18,671 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-13 22:03:18,671 - werkzeug - INFO -  * Restarting with stat
+2025-05-13 22:03:18,979 - werkzeug - WARNING -  * Debugger is active!
+2025-05-13 22:03:18,986 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-13 22:09:25,446 - werkzeug - INFO - 192.168.0.170 - - [13/May/2025 22:09:25] "GET / HTTP/1.1" 200 -
+2025-05-13 22:09:35,697 - werkzeug - INFO - 192.168.0.170 - - [13/May/2025 22:09:35] "[31m[1mGET / HTTP/1.1[0m" 400 -
+2025-05-13 22:09:35,764 - werkzeug - INFO - 192.168.0.170 - - [13/May/2025 22:09:35] "[35m[1mGET /loginMsg.js HTTP/1.1[0m" 500 -
+2025-05-13 22:09:35,825 - werkzeug - INFO - 192.168.0.170 - - [13/May/2025 22:09:35] "[35m[1mGET /cgi/get.cgi?cmd=home_login HTTP/1.1[0m" 500 -
+2025-05-13 22:10:59,571 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hitan\\OneDrive - iiit-b\\College\\Internshi\\Louder\\server\\event_scraper.py', reloading
+2025-05-13 22:10:59,603 - werkzeug - INFO -  * Restarting with stat
+2025-05-13 22:10:59,933 - werkzeug - WARNING -  * Debugger is active!
+2025-05-13 22:10:59,940 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-13 22:11:28,170 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.170:5000
+2025-05-13 22:11:28,170 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-13 22:11:28,170 - werkzeug - INFO -  * Restarting with stat
+2025-05-13 22:11:28,434 - werkzeug - WARNING -  * Debugger is active!
+2025-05-13 22:11:28,434 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-13 22:11:36,544 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:36] "GET / HTTP/1.1" 200 -
+2025-05-13 22:11:36,675 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:36] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-13 22:11:36,677 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:36] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 22:11:36,926 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:36] "GET /api/events HTTP/1.1" 200 -
+2025-05-13 22:11:36,926 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:36] "GET /api/categories HTTP/1.1" 200 -
+2025-05-13 22:11:36,927 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:36] "GET /api/venues HTTP/1.1" 200 -
+2025-05-13 22:11:36,943 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:36] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-13 22:11:37,960 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:37] "GET / HTTP/1.1" 200 -
+2025-05-13 22:11:37,974 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 22:11:37,977 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:37] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-13 22:11:37,990 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:37] "GET /api/events HTTP/1.1" 200 -
+2025-05-13 22:11:37,990 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:37] "GET /api/categories HTTP/1.1" 200 -
+2025-05-13 22:11:37,990 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:37] "GET /api/venues HTTP/1.1" 200 -
+2025-05-13 22:11:38,008 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:38] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-13 22:11:38,834 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:38] "GET / HTTP/1.1" 200 -
+2025-05-13 22:11:38,850 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 22:11:38,852 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:38] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-13 22:11:38,881 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:38] "GET /api/events HTTP/1.1" 200 -
+2025-05-13 22:11:38,884 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:38] "GET /api/categories HTTP/1.1" 200 -
+2025-05-13 22:11:38,884 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:38] "GET /api/venues HTTP/1.1" 200 -
+2025-05-13 22:11:38,911 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:38] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-13 22:11:39,017 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:39] "GET / HTTP/1.1" 200 -
+2025-05-13 22:11:39,031 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:39] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 22:11:39,039 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:39] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-13 22:11:39,071 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:39] "GET /api/events HTTP/1.1" 200 -
+2025-05-13 22:11:39,071 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:39] "GET /api/categories HTTP/1.1" 200 -
+2025-05-13 22:11:39,072 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:39] "GET /api/venues HTTP/1.1" 200 -
+2025-05-13 22:11:39,112 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:39] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-13 22:11:39,224 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:39] "GET / HTTP/1.1" 200 -
+2025-05-13 22:11:39,239 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:39] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 22:11:39,241 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:39] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-13 22:11:39,324 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:39] "GET /api/events HTTP/1.1" 200 -
+2025-05-13 22:11:39,324 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:39] "GET /api/categories HTTP/1.1" 200 -
+2025-05-13 22:11:39,327 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:39] "GET /api/venues HTTP/1.1" 200 -
+2025-05-13 22:11:39,515 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:39] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-13 22:11:40,053 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:40] "GET / HTTP/1.1" 200 -
+2025-05-13 22:11:40,066 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:40] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 22:11:40,072 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:40] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-13 22:11:40,092 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:40] "GET /api/events HTTP/1.1" 200 -
+2025-05-13 22:11:40,095 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:40] "GET /api/categories HTTP/1.1" 200 -
+2025-05-13 22:11:40,097 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:40] "GET /api/venues HTTP/1.1" 200 -
+2025-05-13 22:11:40,275 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:40] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-13 22:11:40,355 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:40] "GET / HTTP/1.1" 200 -
+2025-05-13 22:11:40,372 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:40] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 22:11:40,373 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:40] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-13 22:11:40,441 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:40] "GET /api/events HTTP/1.1" 200 -
+2025-05-13 22:11:40,442 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:40] "GET /api/categories HTTP/1.1" 200 -
+2025-05-13 22:11:40,442 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:40] "GET /api/venues HTTP/1.1" 200 -
+2025-05-13 22:11:40,480 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:40] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-13 22:11:40,578 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:40] "GET / HTTP/1.1" 200 -
+2025-05-13 22:11:40,593 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:40] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 22:11:40,597 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:40] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-13 22:11:40,654 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:40] "GET /api/events HTTP/1.1" 200 -
+2025-05-13 22:11:40,656 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:40] "GET /api/venues HTTP/1.1" 200 -
+2025-05-13 22:11:40,657 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:40] "GET /api/categories HTTP/1.1" 200 -
+2025-05-13 22:11:40,845 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:40] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-13 22:11:40,848 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:40] "GET / HTTP/1.1" 200 -
+2025-05-13 22:11:40,864 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:40] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-13 22:11:40,864 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:40] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 22:11:40,916 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:40] "GET /api/categories HTTP/1.1" 200 -
+2025-05-13 22:11:40,919 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:40] "GET /api/venues HTTP/1.1" 200 -
+2025-05-13 22:11:40,920 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:40] "GET /api/events HTTP/1.1" 200 -
+2025-05-13 22:11:40,988 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:40] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-13 22:11:41,081 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:41] "GET / HTTP/1.1" 200 -
+2025-05-13 22:11:41,099 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:41] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 22:11:41,103 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:41] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-13 22:11:41,199 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:41] "GET /api/events HTTP/1.1" 200 -
+2025-05-13 22:11:41,199 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:41] "GET /api/categories HTTP/1.1" 200 -
+2025-05-13 22:11:41,203 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:41] "GET /api/venues HTTP/1.1" 200 -
+2025-05-13 22:11:41,392 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:41] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-13 22:11:49,689 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:49] "GET / HTTP/1.1" 200 -
+2025-05-13 22:11:49,704 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:49] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 22:11:49,704 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:49] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-13 22:11:49,714 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:49] "GET /api/events HTTP/1.1" 200 -
+2025-05-13 22:11:49,720 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:49] "GET /api/categories HTTP/1.1" 200 -
+2025-05-13 22:11:49,724 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:49] "GET /api/venues HTTP/1.1" 200 -
+2025-05-13 22:11:49,756 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:49] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-13 22:11:50,431 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:50] "GET / HTTP/1.1" 200 -
+2025-05-13 22:11:50,453 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:50] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 22:11:50,463 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:50] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-13 22:11:50,480 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:50] "GET /api/categories HTTP/1.1" 200 -
+2025-05-13 22:11:50,480 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:50] "GET /api/events HTTP/1.1" 200 -
+2025-05-13 22:11:50,483 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:50] "GET /api/venues HTTP/1.1" 200 -
+2025-05-13 22:11:50,529 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:11:50] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-13 22:13:02,006 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.170:5000
+2025-05-13 22:13:02,006 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-13 22:13:02,007 - werkzeug - INFO -  * Restarting with stat
+2025-05-13 22:13:02,287 - werkzeug - WARNING -  * Debugger is active!
+2025-05-13 22:13:02,287 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-13 22:13:10,116 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:13:10] "GET / HTTP/1.1" 200 -
+2025-05-13 22:13:10,249 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:13:10] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 22:13:10,250 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:13:10] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-13 22:13:10,551 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:13:10] "GET /api/events HTTP/1.1" 200 -
+2025-05-13 22:13:10,551 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:13:10] "GET /api/venues HTTP/1.1" 200 -
+2025-05-13 22:13:10,553 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:13:10] "GET /api/categories HTTP/1.1" 200 -
+2025-05-13 22:13:10,571 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 22:13:10] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-13 22:37:31,436 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hitan\\OneDrive - iiit-b\\College\\Internshi\\Louder\\server\\event_scraper.py', reloading
+2025-05-13 22:37:31,477 - werkzeug - INFO -  * Restarting with stat
+2025-05-13 22:37:31,817 - werkzeug - WARNING -  * Debugger is active!
+2025-05-13 22:37:31,825 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-13 23:12:48,138 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hitan\\OneDrive - iiit-b\\College\\Internshi\\Louder\\server\\event_scraper.py', reloading
+2025-05-13 23:12:48,175 - werkzeug - INFO -  * Restarting with stat
+2025-05-13 23:12:49,372 - werkzeug - WARNING -  * Debugger is active!
+2025-05-13 23:12:49,389 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-13 23:15:30,375 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hitan\\OneDrive - iiit-b\\College\\Internshi\\Louder\\server\\event_scraper.py', reloading
+2025-05-13 23:15:30,411 - werkzeug - INFO -  * Restarting with stat
+2025-05-13 23:15:30,742 - werkzeug - WARNING -  * Debugger is active!
+2025-05-13 23:15:30,743 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-13 23:18:56,587 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hitan\\OneDrive - iiit-b\\College\\Internshi\\Louder\\server\\event_scraper.py', reloading
+2025-05-13 23:18:56,622 - werkzeug - INFO -  * Restarting with stat
+2025-05-13 23:18:56,938 - werkzeug - WARNING -  * Debugger is active!
+2025-05-13 23:18:56,945 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-13 23:20:29,503 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hitan\\OneDrive - iiit-b\\College\\Internshi\\Louder\\server\\event_scraper.py', reloading
+2025-05-13 23:20:29,532 - werkzeug - INFO -  * Restarting with stat
+2025-05-13 23:20:29,892 - werkzeug - WARNING -  * Debugger is active!
+2025-05-13 23:20:29,898 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-13 23:20:59,315 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hitan\\OneDrive - iiit-b\\College\\Internshi\\Louder\\server\\event_scraper.py', reloading
+2025-05-13 23:20:59,352 - werkzeug - INFO -  * Restarting with stat
+2025-05-13 23:20:59,691 - werkzeug - WARNING -  * Debugger is active!
+2025-05-13 23:20:59,691 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-13 23:22:35,040 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hitan\\OneDrive - iiit-b\\College\\Internshi\\Louder\\server\\event_scraper.py', reloading
+2025-05-13 23:22:35,069 - werkzeug - INFO -  * Restarting with stat
+2025-05-13 23:22:35,388 - werkzeug - WARNING -  * Debugger is active!
+2025-05-13 23:22:35,403 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-13 23:48:02,755 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hitan\\OneDrive - iiit-b\\College\\Internshi\\Louder\\server\\event_scraper.py', reloading
+2025-05-13 23:48:02,835 - werkzeug - INFO -  * Restarting with stat
+2025-05-13 23:48:03,168 - werkzeug - WARNING -  * Debugger is active!
+2025-05-13 23:48:03,184 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-13 23:48:44,700 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.170:5000
+2025-05-13 23:48:44,701 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-13 23:48:44,702 - werkzeug - INFO -  * Restarting with stat
+2025-05-13 23:48:44,983 - werkzeug - WARNING -  * Debugger is active!
+2025-05-13 23:48:44,985 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-13 23:48:52,601 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 23:48:52] "GET / HTTP/1.1" 200 -
+2025-05-13 23:48:52,718 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 23:48:52] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 23:48:52,719 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 23:48:52] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-13 23:48:52,983 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 23:48:52] "GET /api/categories HTTP/1.1" 200 -
+2025-05-13 23:48:52,987 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 23:48:52] "GET /api/venues HTTP/1.1" 200 -
+2025-05-13 23:48:52,988 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 23:48:52] "GET /api/events HTTP/1.1" 200 -
+2025-05-13 23:48:53,066 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 23:48:53] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-13 23:48:56,464 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 23:48:56] "GET / HTTP/1.1" 200 -
+2025-05-13 23:48:56,485 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 23:48:56] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-13 23:48:56,485 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 23:48:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 23:48:56,501 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 23:48:56] "GET /api/categories HTTP/1.1" 200 -
+2025-05-13 23:48:56,501 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 23:48:56] "GET /api/events HTTP/1.1" 200 -
+2025-05-13 23:48:56,503 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 23:48:56] "GET /api/venues HTTP/1.1" 200 -
+2025-05-13 23:48:56,541 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 23:48:56] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-13 23:48:57,372 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 23:48:57] "GET / HTTP/1.1" 200 -
+2025-05-13 23:48:57,392 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 23:48:57] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-13 23:48:57,400 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 23:48:57] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-13 23:48:57,421 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 23:48:57] "GET /api/events HTTP/1.1" 200 -
+2025-05-13 23:48:57,422 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 23:48:57] "GET /api/categories HTTP/1.1" 200 -
+2025-05-13 23:48:57,422 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 23:48:57] "GET /api/venues HTTP/1.1" 200 -
+2025-05-13 23:48:57,463 - werkzeug - INFO - 127.0.0.1 - - [13/May/2025 23:48:57] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-14 00:03:27,020 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hitan\\OneDrive - iiit-b\\College\\Internshi\\Louder\\server\\event_scraper.py', reloading
+2025-05-14 00:03:27,059 - werkzeug - INFO -  * Restarting with stat
+2025-05-14 00:03:27,384 - werkzeug - WARNING -  * Debugger is active!
+2025-05-14 00:03:27,384 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-14 00:03:47,030 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.170:5000
+2025-05-14 00:03:47,030 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-14 00:03:47,030 - werkzeug - INFO -  * Restarting with stat
+2025-05-14 00:03:47,316 - werkzeug - WARNING -  * Debugger is active!
+2025-05-14 00:03:47,316 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-14 00:04:55,131 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:55] "GET / HTTP/1.1" 200 -
+2025-05-14 00:04:55,248 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:55] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-14 00:04:55,248 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:55] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-14 00:04:55,505 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:55] "GET /api/events HTTP/1.1" 200 -
+2025-05-14 00:04:55,506 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:55] "GET /api/categories HTTP/1.1" 200 -
+2025-05-14 00:04:55,506 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:55] "GET /api/venues HTTP/1.1" 200 -
+2025-05-14 00:04:55,526 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:55] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-14 00:04:56,300 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:56] "GET / HTTP/1.1" 200 -
+2025-05-14 00:04:56,313 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-14 00:04:56,317 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:56] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-14 00:04:56,330 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:56] "GET /api/events HTTP/1.1" 200 -
+2025-05-14 00:04:56,334 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:56] "GET /api/categories HTTP/1.1" 200 -
+2025-05-14 00:04:56,334 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:56] "GET /api/venues HTTP/1.1" 200 -
+2025-05-14 00:04:56,353 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:56] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-14 00:04:56,513 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:56] "GET / HTTP/1.1" 200 -
+2025-05-14 00:04:56,527 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-14 00:04:56,527 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:56] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-14 00:04:56,589 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:56] "GET /api/events HTTP/1.1" 200 -
+2025-05-14 00:04:56,589 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:56] "GET /api/categories HTTP/1.1" 200 -
+2025-05-14 00:04:56,590 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:56] "GET /api/venues HTTP/1.1" 200 -
+2025-05-14 00:04:56,760 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:56] "GET / HTTP/1.1" 200 -
+2025-05-14 00:04:56,771 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:56] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-14 00:04:56,775 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-14 00:04:56,780 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:56] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-14 00:04:56,824 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:56] "GET /api/events HTTP/1.1" 200 -
+2025-05-14 00:04:56,824 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:56] "GET /api/categories HTTP/1.1" 200 -
+2025-05-14 00:04:56,825 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:56] "GET /api/venues HTTP/1.1" 200 -
+2025-05-14 00:04:56,999 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:56] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-14 00:04:57,203 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:57] "GET / HTTP/1.1" 200 -
+2025-05-14 00:04:57,214 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:57] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-14 00:04:57,214 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:57] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-14 00:04:57,322 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:57] "GET /api/events HTTP/1.1" 200 -
+2025-05-14 00:04:57,323 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:57] "GET /api/categories HTTP/1.1" 200 -
+2025-05-14 00:04:57,325 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:57] "GET /api/venues HTTP/1.1" 200 -
+2025-05-14 00:04:57,509 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:57] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-14 00:04:57,598 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:57] "GET / HTTP/1.1" 200 -
+2025-05-14 00:04:57,613 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:57] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-14 00:04:57,614 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:57] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-14 00:04:57,631 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:57] "GET /api/events HTTP/1.1" 200 -
+2025-05-14 00:04:57,631 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:57] "GET /api/categories HTTP/1.1" 200 -
+2025-05-14 00:04:57,632 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:57] "GET /api/venues HTTP/1.1" 200 -
+2025-05-14 00:04:57,647 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:57] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-14 00:04:57,811 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:57] "GET / HTTP/1.1" 200 -
+2025-05-14 00:04:57,828 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:57] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-14 00:04:57,829 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:57] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-14 00:04:57,845 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:57] "GET /api/events HTTP/1.1" 200 -
+2025-05-14 00:04:57,847 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:57] "GET /api/categories HTTP/1.1" 200 -
+2025-05-14 00:04:57,847 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:57] "GET /api/venues HTTP/1.1" 200 -
+2025-05-14 00:04:57,919 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:57] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-14 00:04:58,731 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:58] "GET / HTTP/1.1" 200 -
+2025-05-14 00:04:58,752 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:58] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-14 00:04:58,753 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:58] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-14 00:04:58,809 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:58] "GET /api/events HTTP/1.1" 200 -
+2025-05-14 00:04:58,811 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:58] "GET /api/categories HTTP/1.1" 200 -
+2025-05-14 00:04:58,812 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:58] "GET /api/venues HTTP/1.1" 200 -
+2025-05-14 00:04:58,893 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:04:58] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-14 00:06:08,259 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hitan\\OneDrive - iiit-b\\College\\Internshi\\Louder\\server\\event_scraper.py', reloading
+2025-05-14 00:06:08,289 - werkzeug - INFO -  * Restarting with stat
+2025-05-14 00:06:08,615 - werkzeug - WARNING -  * Debugger is active!
+2025-05-14 00:06:08,615 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-14 00:06:32,963 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:06:32] "GET / HTTP/1.1" 200 -
+2025-05-14 00:06:33,111 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:06:33] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-14 00:06:33,118 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:06:33] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-14 00:06:33,355 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:06:33] "GET /api/events HTTP/1.1" 200 -
+2025-05-14 00:06:33,357 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:06:33] "GET /api/venues HTTP/1.1" 200 -
+2025-05-14 00:06:33,357 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:06:33] "GET /api/categories HTTP/1.1" 200 -
+2025-05-14 00:06:33,377 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:06:33] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-14 00:06:34,545 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:06:34] "GET / HTTP/1.1" 200 -
+2025-05-14 00:06:34,565 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:06:34] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-14 00:06:34,566 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:06:34] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-14 00:06:34,579 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:06:34] "GET /api/events HTTP/1.1" 200 -
+2025-05-14 00:06:34,582 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:06:34] "GET /api/categories HTTP/1.1" 200 -
+2025-05-14 00:06:34,582 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:06:34] "GET /api/venues HTTP/1.1" 200 -
+2025-05-14 00:06:34,598 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:06:34] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-14 00:23:21,335 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hitan\\OneDrive - iiit-b\\College\\Internshi\\Louder\\server\\event_scraper.py', reloading
+2025-05-14 00:23:21,365 - werkzeug - INFO -  * Restarting with stat
+2025-05-14 00:23:21,678 - werkzeug - WARNING -  * Debugger is active!
+2025-05-14 00:23:21,678 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-14 00:26:03,541 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hitan\\OneDrive - iiit-b\\College\\Internshi\\Louder\\server\\event_scraper.py', reloading
+2025-05-14 00:26:03,576 - werkzeug - INFO -  * Restarting with stat
+2025-05-14 00:26:03,902 - werkzeug - WARNING -  * Debugger is active!
+2025-05-14 00:26:03,913 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-14 00:27:38,175 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hitan\\OneDrive - iiit-b\\College\\Internshi\\Louder\\server\\event_scraper.py', reloading
+2025-05-14 00:27:38,204 - werkzeug - INFO -  * Restarting with stat
+2025-05-14 00:27:38,493 - werkzeug - WARNING -  * Debugger is active!
+2025-05-14 00:27:38,499 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-14 00:27:56,238 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:56] "GET / HTTP/1.1" 200 -
+2025-05-14 00:27:56,579 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-14 00:27:56,600 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:56] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-14 00:27:56,626 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:56] "GET /api/events HTTP/1.1" 200 -
+2025-05-14 00:27:56,627 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:56] "GET /api/categories HTTP/1.1" 200 -
+2025-05-14 00:27:56,628 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:56] "GET /api/venues HTTP/1.1" 200 -
+2025-05-14 00:27:56,704 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:56] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-14 00:27:57,586 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:57] "GET / HTTP/1.1" 200 -
+2025-05-14 00:27:57,600 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:57] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-14 00:27:57,602 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:57] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-14 00:27:57,616 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:57] "GET /api/events HTTP/1.1" 200 -
+2025-05-14 00:27:57,617 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:57] "GET /api/venues HTTP/1.1" 200 -
+2025-05-14 00:27:57,618 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:57] "GET /api/categories HTTP/1.1" 200 -
+2025-05-14 00:27:57,657 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:57] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-14 00:27:58,114 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:58] "GET / HTTP/1.1" 200 -
+2025-05-14 00:27:58,130 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:58] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-14 00:27:58,132 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:58] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-14 00:27:58,155 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:58] "GET /api/events HTTP/1.1" 200 -
+2025-05-14 00:27:58,156 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:58] "GET /api/categories HTTP/1.1" 200 -
+2025-05-14 00:27:58,156 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:58] "GET /api/venues HTTP/1.1" 200 -
+2025-05-14 00:27:58,199 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:58] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-14 00:27:58,874 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:58] "GET / HTTP/1.1" 200 -
+2025-05-14 00:27:58,893 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:58] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-14 00:27:58,897 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:58] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-14 00:27:58,907 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:58] "GET /api/events HTTP/1.1" 200 -
+2025-05-14 00:27:58,908 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:58] "GET /api/categories HTTP/1.1" 200 -
+2025-05-14 00:27:58,910 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:58] "GET /api/venues HTTP/1.1" 200 -
+2025-05-14 00:27:58,947 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:58] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-14 00:27:59,089 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:59] "GET / HTTP/1.1" 200 -
+2025-05-14 00:27:59,100 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-14 00:27:59,100 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:59] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-14 00:27:59,114 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:59] "GET /api/events HTTP/1.1" 200 -
+2025-05-14 00:27:59,116 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:59] "GET /api/categories HTTP/1.1" 200 -
+2025-05-14 00:27:59,117 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:59] "GET /api/venues HTTP/1.1" 200 -
+2025-05-14 00:27:59,160 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:59] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-14 00:27:59,286 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:59] "GET / HTTP/1.1" 200 -
+2025-05-14 00:27:59,303 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-14 00:27:59,303 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:59] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-14 00:27:59,322 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:59] "GET /api/events HTTP/1.1" 200 -
+2025-05-14 00:27:59,323 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:59] "GET /api/venues HTTP/1.1" 200 -
+2025-05-14 00:27:59,324 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:59] "GET /api/categories HTTP/1.1" 200 -
+2025-05-14 00:27:59,358 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:59] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-14 00:27:59,489 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:59] "GET / HTTP/1.1" 200 -
+2025-05-14 00:27:59,507 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-14 00:27:59,508 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:59] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-14 00:27:59,548 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:59] "GET /api/categories HTTP/1.1" 200 -
+2025-05-14 00:27:59,549 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:59] "GET /api/events HTTP/1.1" 200 -
+2025-05-14 00:27:59,549 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:59] "GET /api/venues HTTP/1.1" 200 -
+2025-05-14 00:27:59,711 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:59] "GET / HTTP/1.1" 200 -
+2025-05-14 00:27:59,735 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-14 00:27:59,737 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:59] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-14 00:27:59,746 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:59] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-14 00:27:59,771 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:59] "GET /api/categories HTTP/1.1" 200 -
+2025-05-14 00:27:59,773 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:59] "GET /api/events HTTP/1.1" 200 -
+2025-05-14 00:27:59,773 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:59] "GET /api/venues HTTP/1.1" 200 -
+2025-05-14 00:27:59,956 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:27:59] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-14 00:33:24,328 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hitan\\OneDrive - iiit-b\\College\\Internshi\\Louder\\server\\event_scraper.py', reloading
+2025-05-14 00:33:24,357 - werkzeug - INFO -  * Restarting with stat
+2025-05-14 00:33:24,679 - werkzeug - WARNING -  * Debugger is active!
+2025-05-14 00:33:24,679 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-14 00:33:54,078 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hitan\\OneDrive - iiit-b\\College\\Internshi\\Louder\\server\\event_scraper.py', reloading
+2025-05-14 00:33:54,106 - werkzeug - INFO -  * Restarting with stat
+2025-05-14 00:33:54,402 - werkzeug - WARNING -  * Debugger is active!
+2025-05-14 00:33:54,407 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-14 00:37:16,540 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hitan\\OneDrive - iiit-b\\College\\Internshi\\Louder\\server\\event_scraper.py', reloading
+2025-05-14 00:37:16,567 - werkzeug - INFO -  * Restarting with stat
+2025-05-14 00:37:16,921 - werkzeug - WARNING -  * Debugger is active!
+2025-05-14 00:37:16,922 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-14 00:42:47,286 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hitan\\OneDrive - iiit-b\\College\\Internshi\\Louder\\server\\event_scraper.py', reloading
+2025-05-14 00:42:47,312 - werkzeug - INFO -  * Restarting with stat
+2025-05-14 00:42:47,646 - werkzeug - WARNING -  * Debugger is active!
+2025-05-14 00:42:47,649 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-14 00:43:04,910 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hitan\\OneDrive - iiit-b\\College\\Internshi\\Louder\\server\\event_scraper.py', reloading
+2025-05-14 00:43:04,938 - werkzeug - INFO -  * Restarting with stat
+2025-05-14 00:43:05,230 - werkzeug - WARNING -  * Debugger is active!
+2025-05-14 00:43:05,237 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-14 00:43:26,385 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:43:26] "GET / HTTP/1.1" 200 -
+2025-05-14 00:43:26,512 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:43:26] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-14 00:43:26,513 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:43:26] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-14 00:43:26,773 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:43:26] "GET /api/events HTTP/1.1" 200 -
+2025-05-14 00:43:26,773 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:43:26] "GET /api/venues HTTP/1.1" 200 -
+2025-05-14 00:43:26,774 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:43:26] "GET /api/categories HTTP/1.1" 200 -
+2025-05-14 00:43:26,792 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:43:26] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-14 00:43:27,583 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:43:27] "GET / HTTP/1.1" 200 -
+2025-05-14 00:43:27,603 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:43:27] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-14 00:43:27,605 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:43:27] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-14 00:43:27,617 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:43:27] "GET /api/events HTTP/1.1" 200 -
+2025-05-14 00:43:27,617 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:43:27] "GET /api/categories HTTP/1.1" 200 -
+2025-05-14 00:43:27,618 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:43:27] "GET /api/venues HTTP/1.1" 200 -
+2025-05-14 00:43:27,639 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:43:27] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-14 00:43:28,239 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:43:28] "GET / HTTP/1.1" 200 -
+2025-05-14 00:43:28,256 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:43:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-14 00:43:28,256 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:43:28] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-14 00:43:28,284 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:43:28] "GET /api/events HTTP/1.1" 200 -
+2025-05-14 00:43:28,285 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:43:28] "GET /api/categories HTTP/1.1" 200 -
+2025-05-14 00:43:28,286 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:43:28] "GET /api/venues HTTP/1.1" 200 -
+2025-05-14 00:43:28,325 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:43:28] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-14 00:43:28,443 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:43:28] "GET / HTTP/1.1" 200 -
+2025-05-14 00:43:28,459 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:43:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-14 00:43:28,462 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:43:28] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-14 00:43:28,497 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:43:28] "GET /api/events HTTP/1.1" 200 -
+2025-05-14 00:43:28,498 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:43:28] "GET /api/categories HTTP/1.1" 200 -
+2025-05-14 00:43:28,498 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:43:28] "GET /api/venues HTTP/1.1" 200 -
+2025-05-14 00:43:28,688 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:43:28] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-14 00:43:28,701 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:43:28] "GET / HTTP/1.1" 200 -
+2025-05-14 00:43:28,718 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:43:28] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-14 00:43:28,720 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:43:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-14 00:43:28,770 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:43:28] "GET /api/events HTTP/1.1" 200 -
+2025-05-14 00:43:28,773 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:43:28] "GET /api/categories HTTP/1.1" 200 -
+2025-05-14 00:43:28,775 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:43:28] "GET /api/venues HTTP/1.1" 200 -
+2025-05-14 00:43:28,942 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:43:28] "GET / HTTP/1.1" 200 -
+2025-05-14 00:43:28,964 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:43:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-14 00:43:28,970 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:43:28] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-14 00:43:28,973 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:43:28] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-14 00:43:29,018 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:43:29] "GET /api/events HTTP/1.1" 200 -
+2025-05-14 00:43:29,019 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:43:29] "GET /api/categories HTTP/1.1" 200 -
+2025-05-14 00:43:29,020 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:43:29] "GET /api/venues HTTP/1.1" 200 -
+2025-05-14 00:43:29,089 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 00:43:29] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-14 08:03:41,203 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-05-14 08:03:41,205 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-14 08:03:41,205 - werkzeug - INFO -  * Restarting with stat
+2025-05-14 08:03:41,681 - werkzeug - WARNING -  * Debugger is active!
+2025-05-14 08:03:41,697 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-14 08:03:51,364 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 08:03:51] "GET / HTTP/1.1" 200 -
+2025-05-14 08:03:51,597 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 08:03:51] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-14 08:03:51,602 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 08:03:51] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-14 08:03:52,045 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 08:03:52] "GET /api/categories HTTP/1.1" 200 -
+2025-05-14 08:03:52,045 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 08:03:52] "GET /api/venues HTTP/1.1" 200 -
+2025-05-14 08:03:52,055 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 08:03:52] "GET /api/events HTTP/1.1" 200 -
+2025-05-14 08:03:52,162 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 08:03:52] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-14 08:03:54,026 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 08:03:54] "GET / HTTP/1.1" 200 -
+2025-05-14 08:03:54,052 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 08:03:54] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-14 08:03:54,052 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 08:03:54] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-14 08:03:54,075 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 08:03:54] "GET /api/categories HTTP/1.1" 200 -
+2025-05-14 08:03:54,075 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 08:03:54] "GET /api/events HTTP/1.1" 200 -
+2025-05-14 08:03:54,079 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 08:03:54] "GET /api/venues HTTP/1.1" 200 -
+2025-05-14 08:03:54,414 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 08:03:54] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-14 08:03:55,000 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 08:03:55] "GET / HTTP/1.1" 200 -
+2025-05-14 08:03:55,022 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 08:03:55] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-14 08:03:55,034 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 08:03:55] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-14 08:03:55,051 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 08:03:55] "GET /api/events HTTP/1.1" 200 -
+2025-05-14 08:03:55,054 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 08:03:55] "GET /api/categories HTTP/1.1" 200 -
+2025-05-14 08:03:55,062 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 08:03:55] "GET /api/venues HTTP/1.1" 200 -
+2025-05-14 08:03:55,371 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 08:03:55] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-14 08:06:18,415 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-05-14 08:06:18,415 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-14 08:06:18,415 - werkzeug - INFO -  * Restarting with stat
+2025-05-14 08:06:18,915 - werkzeug - WARNING -  * Debugger is active!
+2025-05-14 08:06:18,924 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-14 08:09:40,647 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 08:09:40] "GET /api/events HTTP/1.1" 200 -
+2025-05-14 08:09:40,776 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 08:09:40] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-14 08:12:51,873 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hitan\\OneDrive - iiit-b\\College\\Internshi\\Louder\\server\\event_scraper.py', reloading
+2025-05-14 08:12:51,945 - werkzeug - INFO -  * Restarting with stat
+2025-05-14 08:12:52,658 - werkzeug - WARNING -  * Debugger is active!
+2025-05-14 08:12:52,671 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-14 08:24:49,975 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hitan\\OneDrive - iiit-b\\College\\Internshi\\Louder\\server\\event_scraper.py', reloading
+2025-05-14 08:24:50,024 - werkzeug - INFO -  * Restarting with stat
+2025-05-14 08:24:50,574 - werkzeug - WARNING -  * Debugger is active!
+2025-05-14 08:24:50,586 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-14 08:25:08,050 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hitan\\OneDrive - iiit-b\\College\\Internshi\\Louder\\server\\event_scraper.py', reloading
+2025-05-14 08:25:08,092 - werkzeug - INFO -  * Restarting with stat
+2025-05-14 08:25:08,630 - werkzeug - WARNING -  * Debugger is active!
+2025-05-14 08:25:08,630 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-14 08:26:46,401 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hitan\\OneDrive - iiit-b\\College\\Internshi\\Louder\\server\\event_scraper.py', reloading
+2025-05-14 08:26:46,483 - werkzeug - INFO -  * Restarting with stat
+2025-05-14 08:26:47,030 - werkzeug - WARNING -  * Debugger is active!
+2025-05-14 08:26:47,030 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-14 08:27:17,859 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hitan\\OneDrive - iiit-b\\College\\Internshi\\Louder\\server\\event_scraper.py', reloading
+2025-05-14 08:27:17,908 - werkzeug - INFO -  * Restarting with stat
+2025-05-14 08:27:18,409 - werkzeug - WARNING -  * Debugger is active!
+2025-05-14 08:27:18,428 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-14 08:28:08,786 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hitan\\OneDrive - iiit-b\\College\\Internshi\\Louder\\server\\event_scraper.py', reloading
+2025-05-14 08:28:08,850 - werkzeug - INFO -  * Restarting with stat
+2025-05-14 08:28:09,401 - werkzeug - WARNING -  * Debugger is active!
+2025-05-14 08:28:09,412 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-14 08:29:18,940 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hitan\\OneDrive - iiit-b\\College\\Internshi\\Louder\\server\\event_scraper.py', reloading
+2025-05-14 08:29:18,985 - werkzeug - INFO -  * Restarting with stat
+2025-05-14 08:29:19,523 - werkzeug - WARNING -  * Debugger is active!
+2025-05-14 08:29:19,535 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-14 08:29:40,136 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hitan\\OneDrive - iiit-b\\College\\Internshi\\Louder\\server\\event_scraper.py', reloading
+2025-05-14 08:29:40,184 - werkzeug - INFO -  * Restarting with stat
+2025-05-14 08:29:40,727 - werkzeug - WARNING -  * Debugger is active!
+2025-05-14 08:29:40,737 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-14 08:30:09,536 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hitan\\OneDrive - iiit-b\\College\\Internshi\\Louder\\server\\event_scraper.py', reloading
+2025-05-14 08:30:09,595 - werkzeug - INFO -  * Restarting with stat
+2025-05-14 08:30:10,103 - werkzeug - WARNING -  * Debugger is active!
+2025-05-14 08:30:10,111 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-14 08:31:57,024 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hitan\\OneDrive - iiit-b\\College\\Internshi\\Louder\\server\\event_scraper.py', reloading
+2025-05-14 08:31:57,080 - werkzeug - INFO -  * Restarting with stat
+2025-05-14 08:31:57,613 - werkzeug - WARNING -  * Debugger is active!
+2025-05-14 08:31:57,613 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-14 08:32:16,131 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hitan\\OneDrive - iiit-b\\College\\Internshi\\Louder\\server\\event_scraper.py', reloading
+2025-05-14 08:32:16,190 - werkzeug - INFO -  * Restarting with stat
+2025-05-14 08:32:16,688 - werkzeug - WARNING -  * Debugger is active!
+2025-05-14 08:32:16,701 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-14 08:32:29,040 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hitan\\OneDrive - iiit-b\\College\\Internshi\\Louder\\server\\event_scraper.py', reloading
+2025-05-14 08:32:29,098 - werkzeug - INFO -  * Restarting with stat
+2025-05-14 08:32:29,617 - werkzeug - WARNING -  * Debugger is active!
+2025-05-14 08:32:29,627 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-14 08:33:05,000 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-05-14 08:33:05,000 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-14 08:33:05,000 - werkzeug - INFO -  * Restarting with stat
+2025-05-14 08:33:05,514 - werkzeug - WARNING -  * Debugger is active!
+2025-05-14 08:33:05,521 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-14 08:33:17,092 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 08:33:17] "GET / HTTP/1.1" 200 -
+2025-05-14 08:33:17,451 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 08:33:17] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-14 08:33:17,451 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 08:33:17] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-14 08:33:17,874 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 08:33:17] "GET /api/events HTTP/1.1" 200 -
+2025-05-14 08:33:17,874 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 08:33:17] "GET /api/venues HTTP/1.1" 200 -
+2025-05-14 08:33:17,882 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 08:33:17] "GET /api/categories HTTP/1.1" 200 -
+2025-05-14 08:33:18,002 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 08:33:18] "[35m[1mGET /static/images/default-event.jpg HTTP/1.1[0m" 500 -
+2025-05-14 08:33:18,043 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 08:33:18] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-14 09:23:19,845 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 09:23:19] "GET / HTTP/1.1" 200 -
+2025-05-14 09:23:19,901 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 09:23:19] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-14 09:23:19,904 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 09:23:19] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-14 09:23:20,555 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 09:23:20] "GET /api/categories HTTP/1.1" 200 -
+2025-05-14 09:23:20,555 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 09:23:20] "GET /api/venues HTTP/1.1" 200 -
+2025-05-14 09:23:20,555 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 09:23:20] "GET /api/events HTTP/1.1" 200 -
+2025-05-14 09:23:20,712 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 09:23:20] "[35m[1mGET /static/images/default-event.jpg HTTP/1.1[0m" 500 -
+2025-05-14 09:23:20,756 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 09:23:20] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-14 09:23:39,220 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 09:23:39] "[35m[1mGET /static/images/default-event.jpg HTTP/1.1[0m" 500 -
+2025-05-14 09:23:43,980 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 09:23:43] "[35m[1mGET /static/images/default-event.jpg HTTP/1.1[0m" 500 -
+2025-05-14 09:23:45,963 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 09:23:45] "[35m[1mGET /static/images/default-event.jpg HTTP/1.1[0m" 500 -
+2025-05-14 09:23:46,956 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 09:23:46] "[35m[1mGET /static/images/default-event.jpg HTTP/1.1[0m" 500 -
+2025-05-14 09:23:47,706 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 09:23:47] "[35m[1mGET /static/images/default-event.jpg HTTP/1.1[0m" 500 -
+2025-05-14 09:23:48,477 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 09:23:48] "[35m[1mGET /static/images/default-event.jpg HTTP/1.1[0m" 500 -
+2025-05-14 09:25:00,119 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hitan\\OneDrive - iiit-b\\College\\Internshi\\Louder\\server\\app.py', reloading
+2025-05-14 09:25:00,119 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hitan\\OneDrive - iiit-b\\College\\Internshi\\Louder\\server\\app.py', reloading
+2025-05-14 09:25:00,180 - werkzeug - INFO -  * Restarting with stat
+2025-05-14 09:25:00,180 - werkzeug - INFO -  * Restarting with stat
+2025-05-14 09:25:00,925 - werkzeug - WARNING -  * Debugger is active!
+2025-05-14 09:25:00,933 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-14 09:25:04,580 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 09:25:04] "GET / HTTP/1.1" 200 -
+2025-05-14 09:25:04,793 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 09:25:04] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-14 09:25:04,800 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 09:25:04] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-14 09:25:05,355 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 09:25:05] "GET /api/events HTTP/1.1" 200 -
+2025-05-14 09:25:05,357 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 09:25:05] "GET /api/categories HTTP/1.1" 200 -
+2025-05-14 09:25:05,357 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 09:25:05] "GET /api/venues HTTP/1.1" 200 -
+2025-05-14 09:25:05,387 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 09:25:05] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-14 09:25:05,470 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 09:25:05] "[35m[1mGET /static/images/default-event.jpg HTTP/1.1[0m" 500 -
+2025-05-14 09:25:17,518 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hitan\\OneDrive - iiit-b\\College\\Internshi\\Louder\\server\\app.py', reloading
+2025-05-14 09:25:17,518 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hitan\\OneDrive - iiit-b\\College\\Internshi\\Louder\\server\\app.py', reloading
+2025-05-14 09:25:17,571 - werkzeug - INFO -  * Restarting with stat
+2025-05-14 09:25:17,573 - werkzeug - INFO -  * Restarting with stat
+2025-05-14 09:25:18,154 - werkzeug - WARNING -  * Debugger is active!
+2025-05-14 09:25:18,154 - werkzeug - WARNING -  * Debugger is active!
+2025-05-14 09:25:18,169 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-14 09:25:18,169 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-14 09:48:48,379 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hitan\\OneDrive - iiit-b\\College\\Internshi\\Louder\\server\\event_scraper.py', reloading
+2025-05-14 09:48:48,397 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hitan\\OneDrive - iiit-b\\College\\Internshi\\Louder\\server\\event_scraper.py', reloading
+2025-05-14 09:48:48,460 - werkzeug - INFO -  * Restarting with stat
+2025-05-14 09:48:48,484 - werkzeug - INFO -  * Restarting with stat
+2025-05-14 09:48:49,092 - werkzeug - WARNING -  * Debugger is active!
+2025-05-14 09:48:49,092 - werkzeug - WARNING -  * Debugger is active!
+2025-05-14 09:48:49,109 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-14 09:48:49,118 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-14 09:49:06,588 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hitan\\OneDrive - iiit-b\\College\\Internshi\\Louder\\server\\event_scraper.py', reloading
+2025-05-14 09:49:06,600 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hitan\\OneDrive - iiit-b\\College\\Internshi\\Louder\\server\\event_scraper.py', reloading
+2025-05-14 09:49:06,657 - werkzeug - INFO -  * Restarting with stat
+2025-05-14 09:49:06,657 - werkzeug - INFO -  * Restarting with stat
+2025-05-14 09:49:07,176 - werkzeug - WARNING -  * Debugger is active!
+2025-05-14 09:49:07,176 - werkzeug - WARNING -  * Debugger is active!
+2025-05-14 09:49:07,193 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-14 09:49:07,193 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-14 09:49:57,827 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hitan\\OneDrive - iiit-b\\College\\Internshi\\Louder\\server\\event_scraper.py', reloading
+2025-05-14 09:49:57,841 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hitan\\OneDrive - iiit-b\\College\\Internshi\\Louder\\server\\event_scraper.py', reloading
+2025-05-14 09:49:57,891 - werkzeug - INFO -  * Restarting with stat
+2025-05-14 09:49:57,891 - werkzeug - INFO -  * Restarting with stat
+2025-05-14 09:49:58,444 - werkzeug - WARNING -  * Debugger is active!
+2025-05-14 09:49:58,444 - werkzeug - WARNING -  * Debugger is active!
+2025-05-14 09:49:58,457 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-14 09:49:58,457 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-14 09:50:14,718 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 09:50:14] "GET / HTTP/1.1" 200 -
+2025-05-14 09:50:14,967 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 09:50:14] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-14 09:50:14,973 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 09:50:14] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-14 09:50:15,416 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 09:50:15] "GET /api/categories HTTP/1.1" 200 -
+2025-05-14 09:50:15,416 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 09:50:15] "GET /api/events HTTP/1.1" 200 -
+2025-05-14 09:50:15,425 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 09:50:15] "GET /api/venues HTTP/1.1" 200 -
+2025-05-14 09:50:15,557 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 09:50:15] "[35m[1mGET /static/images/default-event.jpg HTTP/1.1[0m" 500 -
+2025-05-14 09:50:15,561 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 09:50:15] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-14 09:50:32,653 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hitan\\OneDrive - iiit-b\\College\\Internshi\\Louder\\server\\event_scraper.py', reloading
+2025-05-14 09:50:32,653 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hitan\\OneDrive - iiit-b\\College\\Internshi\\Louder\\server\\event_scraper.py', reloading
+2025-05-14 09:50:32,710 - werkzeug - INFO -  * Restarting with stat
+2025-05-14 09:50:32,710 - werkzeug - INFO -  * Restarting with stat
+2025-05-14 09:50:33,271 - werkzeug - WARNING -  * Debugger is active!
+2025-05-14 09:50:33,272 - werkzeug - WARNING -  * Debugger is active!
+2025-05-14 09:50:33,283 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-14 09:50:33,288 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-14 09:50:49,043 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 09:50:49] "GET / HTTP/1.1" 200 -
+2025-05-14 09:50:49,284 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 09:50:49] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-14 09:50:49,288 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 09:50:49] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-14 09:50:49,728 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 09:50:49] "GET /api/events HTTP/1.1" 200 -
+2025-05-14 09:50:49,730 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 09:50:49] "GET /api/categories HTTP/1.1" 200 -
+2025-05-14 09:50:49,730 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 09:50:49] "GET /api/venues HTTP/1.1" 200 -
+2025-05-14 09:50:49,785 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 09:50:49] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-14 09:50:49,785 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 09:50:49] "[35m[1mGET /static/images/default-event.jpg HTTP/1.1[0m" 500 -
+2025-05-14 09:51:56,087 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-05-14 09:51:56,087 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-14 09:51:56,097 - werkzeug - INFO -  * Restarting with stat
+2025-05-14 09:51:56,580 - werkzeug - WARNING -  * Debugger is active!
+2025-05-14 09:51:56,594 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-14 09:52:03,957 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 09:52:03] "GET / HTTP/1.1" 200 -
+2025-05-14 09:52:04,153 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 09:52:04] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-14 09:52:04,153 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 09:52:04] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-14 09:52:05,426 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 09:52:05] "GET /api/categories HTTP/1.1" 200 -
+2025-05-14 09:52:05,426 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 09:52:05] "GET /api/events HTTP/1.1" 200 -
+2025-05-14 09:52:05,426 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 09:52:05] "GET /api/venues HTTP/1.1" 200 -
+2025-05-14 09:52:07,150 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 09:52:07] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-14 09:58:03,563 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hitan\\OneDrive - iiit-b\\College\\Internshi\\Louder\\server\\event_scraper.py', reloading
+2025-05-14 09:58:03,603 - werkzeug - INFO -  * Restarting with stat
+2025-05-14 09:58:04,171 - werkzeug - WARNING -  * Debugger is active!
+2025-05-14 09:58:04,180 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-14 09:58:52,747 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hitan\\OneDrive - iiit-b\\College\\Internshi\\Louder\\server\\event_scraper.py', reloading
+2025-05-14 09:58:52,803 - werkzeug - INFO -  * Restarting with stat
+2025-05-14 09:58:53,310 - werkzeug - WARNING -  * Debugger is active!
+2025-05-14 09:58:53,319 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-14 10:00:05,179 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hitan\\OneDrive - iiit-b\\College\\Internshi\\Louder\\server\\event_scraper.py', reloading
+2025-05-14 10:00:05,235 - werkzeug - INFO -  * Restarting with stat
+2025-05-14 10:00:05,781 - werkzeug - WARNING -  * Debugger is active!
+2025-05-14 10:00:05,793 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-14 10:00:19,211 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hitan\\OneDrive - iiit-b\\College\\Internshi\\Louder\\server\\event_scraper.py', reloading
+2025-05-14 10:00:19,265 - werkzeug - INFO -  * Restarting with stat
+2025-05-14 10:00:19,759 - werkzeug - WARNING -  * Debugger is active!
+2025-05-14 10:00:19,767 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-14 10:00:39,814 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 10:00:39] "GET / HTTP/1.1" 200 -
+2025-05-14 10:00:40,029 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 10:00:40] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-14 10:00:40,035 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 10:00:40] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-14 10:00:40,480 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 10:00:40] "GET /api/events HTTP/1.1" 200 -
+2025-05-14 10:00:40,480 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 10:00:40] "GET /api/categories HTTP/1.1" 200 -
+2025-05-14 10:00:40,481 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 10:00:40] "GET /api/venues HTTP/1.1" 200 -
+2025-05-14 10:00:40,563 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 10:00:40] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-14 10:00:40,578 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 10:00:40] "[35m[1mGET /static/images/default-event.jpg HTTP/1.1[0m" 500 -
+2025-05-14 10:00:45,009 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 10:00:45] "[35m[1mGET /static/images/default-event.jpg HTTP/1.1[0m" 500 -
+2025-05-14 10:00:46,079 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 10:00:46] "[35m[1mGET /static/images/default-event.jpg HTTP/1.1[0m" 500 -
+2025-05-14 10:00:49,302 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 10:00:49] "[35m[1mGET /static/images/default-event.jpg HTTP/1.1[0m" 500 -
+2025-05-14 10:01:08,170 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hitan\\OneDrive - iiit-b\\College\\Internshi\\Louder\\server\\event_scraper.py', reloading
+2025-05-14 10:01:08,208 - werkzeug - INFO -  * Restarting with stat
+2025-05-14 10:01:08,747 - werkzeug - WARNING -  * Debugger is active!
+2025-05-14 10:01:08,759 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-14 10:01:13,946 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hitan\\OneDrive - iiit-b\\College\\Internshi\\Louder\\server\\event_scraper.py', reloading
+2025-05-14 10:01:13,993 - werkzeug - INFO -  * Restarting with stat
+2025-05-14 10:01:14,500 - werkzeug - WARNING -  * Debugger is active!
+2025-05-14 10:01:14,514 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-14 10:01:28,679 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 10:01:28] "GET / HTTP/1.1" 200 -
+2025-05-14 10:01:28,888 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 10:01:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-14 10:01:28,890 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 10:01:28] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-14 10:01:29,311 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 10:01:29] "GET /api/categories HTTP/1.1" 200 -
+2025-05-14 10:01:29,311 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 10:01:29] "GET /api/events HTTP/1.1" 200 -
+2025-05-14 10:01:29,316 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 10:01:29] "GET /api/venues HTTP/1.1" 200 -
+2025-05-14 10:01:29,346 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 10:01:29] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-14 10:01:29,377 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 10:01:29] "[35m[1mGET /static/images/default-event.jpg HTTP/1.1[0m" 500 -
+2025-05-14 10:01:37,265 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 10:01:37] "[35m[1mGET /static/images/default-event.jpg HTTP/1.1[0m" 500 -
+2025-05-14 10:01:43,407 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 10:01:43] "[35m[1mGET /static/images/default-event.jpg HTTP/1.1[0m" 500 -
+2025-05-14 10:01:47,707 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 10:01:47] "[35m[1mGET /static/images/default-event.jpg HTTP/1.1[0m" 500 -
+2025-05-14 10:01:50,449 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 10:01:50] "[35m[1mGET /static/images/default-event.jpg HTTP/1.1[0m" 500 -
+2025-05-14 10:19:27,761 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hitan\\OneDrive - iiit-b\\College\\Internshi\\Louder\\server\\event_scraper.py', reloading
+2025-05-14 10:19:27,844 - werkzeug - INFO -  * Restarting with stat
+2025-05-14 10:19:28,189 - werkzeug - WARNING -  * Debugger is active!
+2025-05-14 10:19:28,207 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-14 10:22:02,001 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hitan\\OneDrive - iiit-b\\College\\Internshi\\Louder\\server\\event_scraper.py', reloading
+2025-05-14 10:22:02,046 - werkzeug - INFO -  * Restarting with stat
+2025-05-14 10:22:02,379 - werkzeug - WARNING -  * Debugger is active!
+2025-05-14 10:22:02,385 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-14 10:22:23,682 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hitan\\OneDrive - iiit-b\\College\\Internshi\\Louder\\server\\event_scraper.py', reloading
+2025-05-14 10:22:23,714 - werkzeug - INFO -  * Restarting with stat
+2025-05-14 10:22:24,016 - werkzeug - WARNING -  * Debugger is active!
+2025-05-14 10:22:24,016 - werkzeug - INFO -  * Debugger PIN: 301-931-996
+2025-05-14 10:23:19,379 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 10:23:19] "GET / HTTP/1.1" 200 -
+2025-05-14 10:23:19,514 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 10:23:19] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-14 10:23:19,514 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 10:23:19] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-05-14 10:23:19,787 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 10:23:19] "GET /api/venues HTTP/1.1" 200 -
+2025-05-14 10:23:19,788 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 10:23:19] "GET /api/categories HTTP/1.1" 200 -
+2025-05-14 10:23:19,791 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 10:23:19] "GET /api/events HTTP/1.1" 200 -
+2025-05-14 10:23:19,820 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 10:23:19] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-05-14 10:23:19,824 - werkzeug - INFO - 127.0.0.1 - - [14/May/2025 10:23:19] "[35m[1mGET /static/images/default-event.jpg HTTP/1.1[0m" 500 -

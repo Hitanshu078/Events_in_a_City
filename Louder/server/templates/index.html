@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sydney Events - Discover What's Happening in Sydney</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <meta name="description" content="Discover the best events happening in Sydney. Concerts, festivals, exhibitions, and more.">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Sydney<span>Events</span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active" data-filter="all">All Events</a></li>
+                    <li><a href="#" data-filter="concert">Concerts</a></li>
+                    <li><a href="#" data-filter="festival">Festivals</a></li>
+                    <li><a href="#" data-filter="exhibition">Exhibitions</a></li>
+                    <li><a href="#" data-filter="theatre">Theatre</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Discover Amazing Events in Sydney</h1>
+                <p>Find the best concerts, festivals, exhibitions, and more happening around Sydney.</p>
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="Search events...">
+                    <button id="searchButton">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="filters">
+        <div class="container">
+            <div class="filter-controls">
+                <div class="filter-group">
+                    <label for="dateFilter">Date:</label>
+                    <select id="dateFilter">
+                        <option value="">All Dates</option>
+                        <option value="today">Today</option>
+                        <option value="tomorrow">Tomorrow</option>
+                        <option value="this-weekend">This Weekend</option>
+                        <option value="this-week">This Week</option>
+                        <option value="this-month">This Month</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="categoryFilter">Category:</label>
+                    <select id="categoryFilter">
+                        <option value="">All Categories</option>
+                        <!-- Categories will be populated dynamically -->
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="venueFilter">Venue:</label>
+                    <select id="venueFilter">
+                        <option value="">All Venues</option>
+                        <!-- Venues will be populated dynamically -->
+                    </select>
+                </div>
+                <button id="clearFilters">Clear Filters</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="events">
+        <div class="container">
+            <div id="eventsGrid" class="events-grid">
+                <!-- Events will be populated dynamically -->
+                <div class="loading">
+                    <i class="fas fa-spinner fa-spin"></i>
+                    <p>Loading events...</p>
+                </div>
+            </div>
+            <div id="noEvents" class="no-events" style="display: none;">
+                <i class="fas fa-search"></i>
+                <h3>No events found</h3>
+                <p>Try adjusting your filters or search criteria</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal for ticket acquisition -->
+    <div id="ticketModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Get Tickets</h2>
+            <p>Enter your email to continue to the ticket provider's website:</p>
+            <div class="email-form">
+                <input type="email" id="emailInput" placeholder="Your email address" required>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="optInCheckbox">
+                    <label for="optInCheckbox">Subscribe to our newsletter for updates on upcoming events</label>
+                </div>
+                <button id="ticketSubmitBtn">Continue to Tickets</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Sydney<span>Events</span></h2>
+                    <p>Your guide to what's happening in Sydney</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to get updates on the latest events</p>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Your email address">
+                        <button><i class="fas fa-paper-plane"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 SydneyEvents. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Template for event card -->
+    <template id="eventCardTemplate">
+        <div class="event-card">
+            <div class="event-image">
+                <img src="" alt="">
+            </div>
+            <div class="event-date">
+                <span class="day"></span>
+                <span class="month"></span>
+            </div>
+            <div class="event-content">
+                <h3 class="event-title"></h3>
+                <div class="event-meta">
+                    <p><i class="fas fa-map-marker-alt"></i> <span class="event-venue"></span></p>
+                    <p><i class="fas fa-clock"></i> <span class="event-time"></span></p>
+                </div>
+                <p class="event-description"></p>
+                <div class="event-footer">
+                    <span class="event-price"></span>
+                    <button class="get-tickets" data-event-id="">GET TICKETS</button>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
